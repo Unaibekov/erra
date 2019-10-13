@@ -122,6 +122,8 @@ body {
 
 .adv {
     margin: 0 25px;
+    width: 230px;
+
 }
 
 
@@ -161,6 +163,8 @@ body {
 
 .phone-white {
     color: white;
+    text-align: end;
+    margin-right: 20px;
 }
 
 .phone-black {
@@ -228,7 +232,7 @@ body {
 }
 
 .background_2 {
-    background: url(../img/bg-2.jpg) no-repeat center right / cover;
+    background: url(../img/bg-22.jpg) no-repeat center right / cover;
     height: 500px;
     background-attachment: fixed;
 }
