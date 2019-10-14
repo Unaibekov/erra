@@ -118,6 +118,7 @@ body {
 .adv-list-items {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .adv {
@@ -151,15 +152,15 @@ body {
 
 .nav {
     transition: all 0.3s;
+    width: 100%;
 }
-  
- 
-  
+
+
 .navShadow {
     transition: all 0.3s;
     background: white;
     color:black;
-  }
+}
 
 .phone-white {
     color: white;
