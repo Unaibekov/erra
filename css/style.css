@@ -52,17 +52,17 @@ body {
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
-  
-  .mouse-icon {
+}
+
+.mouse-icon {
     height: 35px;
     width: 22px;
     border-radius: 12px;
     border: 2px solid #fff;
     position: relative;
-  }
-  
-  .mouse-icon:after {
+}
+
+.mouse-icon:after {
     content: '';
     height: 5px;
     width: 3px;
@@ -73,34 +73,34 @@ body {
     border-radius: 8px;
     -webkit-animation: mouse-wheel 1.0s linear infinite;
     -moz-animation: mouse-wheel 1.0s linear infinite;
-  }
-   
-  @-webkit-keyframes mouse-wheel {
+}
+
+@-webkit-keyframes mouse-wheel {
     0% {
-      opacity: 1;
-      -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
-      transform: translateY(0);
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
     }
     100% {
-      opacity: 0;
-      -webkit-transform: translateY(6px);
-      -ms-transform: translateY(6px);
-      transform: translateY(6px);
+        opacity: 0;
+        -webkit-transform: translateY(6px);
+        -ms-transform: translateY(6px);
+        transform: translateY(6px);
     }
-  }
-  
-  @-webkit-keyframes mouse-scroll {
+}
+
+@-webkit-keyframes mouse-scroll {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
     50% {
-      opacity: 1.2;
+        opacity: 1.2;
     }
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
+}
 
 
 
