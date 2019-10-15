@@ -124,10 +124,10 @@ body {
 
 
 
-.container {
+/* .container {
     width: 1200px;
     padding: 0 30px;
-}
+} */
 
 .erra-section {
     display: flex; 
@@ -165,6 +165,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
+}
+
+.icon {
+    height: 40px;
 }
 
 .nav {
@@ -202,20 +207,22 @@ body {
 
 .order {
     color: #ffffff;
-    /* background: #fff; */
-    padding: 10px 30px;
+    padding: 10px 20px;
     border-radius: 50px;
     text-transform: uppercase;
     font-weight: 700;
-    margin: 0 47px;
+    margin: 0 30px;
     cursor: pointer;
     border: 3px solid white;
-    letter-spacing: 4px;
+    font-size: 18px;
+
 }
 
 .order:hover {
     background: #0047bb;
     color: #fff;
+    border: 3px solid #0047bb;
+
 }
 
 .more {
@@ -244,6 +251,8 @@ body {
 .order-color:hover {
     background: #9ca6b7;
     color: white;
+    border: 3px solid #9ca6b7;
+
 }
 
 .background_1 {
@@ -292,6 +301,16 @@ body {
     background-attachment: scroll
 }
 
+.order {
+    margin: 0 5px 0px 0px;
+    padding: 5px 15px;
+    border: 2px solid white;
+    font-size: 14px;
+}
+
+.icon {
+    height: 30px;
+}
   @media (max-width: 768px) 
 
  
