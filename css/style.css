@@ -30,17 +30,16 @@ body {
 }
 
 .main {
-    background: url(../img/bg.jpg);
+    background: url(../img/bg.jpg) no-repeat center right / cover;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    /* background-attachment:fixed; */
+    background-attachment:fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position: center;
 }
 
 .main-title {
