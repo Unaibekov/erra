@@ -30,17 +30,12 @@ body {
 }
 
 .main {
-    background: url(../img/bg.jpg);
+    background: url(../img/bg.jpg) no-repeat center / cover;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-attachment:fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-position: center;
+    background-attachment:fixed;    
 }
 
 .main-title {
@@ -285,6 +280,9 @@ body {
 }
 
   
+.main {  
+    background-attachment: scroll
+}
 
 
   @media (max-width: 768px) 
