@@ -284,6 +284,13 @@ body {
     background-attachment: scroll
 }
 
+.background_1 {
+    background-attachment: scroll
+}
+
+.background_2 {
+    background-attachment: scroll
+}
 
   @media (max-width: 768px) 
 
