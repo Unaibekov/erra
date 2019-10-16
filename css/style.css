@@ -3,7 +3,7 @@ body {
     padding: 0;
     font-family: 'Roboto', serif;
     position: absolute;
-    widows: 100%;
+    width: 100%;
 }
 
 body::-webkit-scrollbar-track {
