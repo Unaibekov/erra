@@ -4,6 +4,10 @@ body {
     font-family: 'Roboto', serif;
     position: absolute;
     width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    min-height: 100%;
 }
 
 body::-webkit-scrollbar-track {
