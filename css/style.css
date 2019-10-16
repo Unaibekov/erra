@@ -2,6 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', serif;
+    position: absolute;
+    widows: 100%;
 }
 
 body::-webkit-scrollbar-track {
@@ -306,15 +308,15 @@ body::-webkit-scrollbar-thumb{
     }
 
     .main {  
-    background-attachment: scroll
+    /* background-attachment: scroll */
     }
 
     .background_1 {
-    background-attachment: scroll
+    /* background-attachment: scroll */
     }
 
     .background_2 {
-    background-attachment: scroll
+    /* background-attachment: scroll */
     }
 
     .order {
