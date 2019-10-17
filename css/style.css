@@ -49,8 +49,8 @@ body::-webkit-scrollbar-thumb{
 .main {
     background: url(../img/bg.jpg) no-repeat center / cover;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    /* justify-content: center; */
     height: 100vh;
     background-attachment:fixed;    
 }
@@ -312,15 +312,15 @@ body::-webkit-scrollbar-thumb{
     }
 
     .main {  
-    /* background-attachment: scroll */
+    background-attachment: scroll
     }
 
     .background_1 {
-    /* background-attachment: scroll */
+    background-attachment: scroll
     }
 
     .background_2 {
-    /* background-attachment: scroll */
+    background-attachment: scroll
     }
 
     .order {
