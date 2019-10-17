@@ -2,6 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', serif;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    min-height: 100%;
 }
 
 body::-webkit-scrollbar-track {
@@ -43,8 +49,8 @@ body::-webkit-scrollbar-thumb{
 .main {
     background: url(../img/bg.jpg) no-repeat center / cover;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    /* justify-content: center; */
     height: 100vh;
     background-attachment:fixed;    
 }
