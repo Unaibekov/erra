@@ -15,7 +15,7 @@ body::-webkit-scrollbar-track {
   }
   
 body::-webkit-scrollbar {
-    width: 7px;
+    width: 10px;
   }
   
 body::-webkit-scrollbar-thumb{
@@ -68,7 +68,7 @@ body::-webkit-scrollbar-thumb{
 
 .main-sub-title {
     color: white;
-    font-size: 24px;
+    font-size: 28px;
     text-align: left;
     font-weight: 100;
 }
@@ -175,7 +175,28 @@ body::-webkit-scrollbar-thumb{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    /* opacity:0; Элемент полностью прозрачный (невидимый) */
+    transition: 1s; /*Скорость перехода состояния элемента*/
+    animation-delay: 1s; /* Задержка перед началом */
+    -webkit-animation: adv-list 1.0s linear ;
 }
+
+@-webkit-keyframes adv-list {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+
 
 .adv {
     margin: 0 25px 25px;
