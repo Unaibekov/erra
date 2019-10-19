@@ -337,7 +337,7 @@ position: absolute;
       width: 20%; height: auto;
       display: inline-block;  position: inherit; 
     }
-    figure.slider img { width: 100%; height: auto; }
+    figure.slider img { width: 100%; height: 400px; }
     figure.slider figure figcaption { 
       position: absolute; bottom: 0;
       background: linear-gradient(0deg, rgba(0,0,0,0.6558998599439776) 0%, rgba(0,0,0,0) 100%);
@@ -643,6 +643,8 @@ position: absolute;
     div#captioned-gallery { 
         width: 100%;
       }
+
+      figure.slider img { height: 195px; }
 
   @media (max-width: 768px) 
 
