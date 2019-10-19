@@ -55,10 +55,6 @@ body::-webkit-scrollbar-thumb{
     background-attachment:fixed;    
 }
 
-
-
-
-
 .main-2 {
     position: relative;
     background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
@@ -69,7 +65,50 @@ body::-webkit-scrollbar-thumb{
     justify-content: center;
 }
 
-.main-2 > div {
+.main-title-second {    
+    position: absolute;
+    z-index: 1;
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.main-title-second > div{    
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    margin-top: 20px;
+    line-height: 0.9;
+}
+
+.erra-white-logo {
+    width: 30%;
+}
+
+.main-2 .main-detail {
+    height: 50%;
+    animation: h 3.5s alternate both infinite;
+}
+
+.content {
+    position:relative;
+    height:20vh;
+    text-align:center;
+    background-color: white;
+  }
+
+@keyframes h {
+    0% {
+        transform: translateY(-20px);
+    }
+    100% { 
+        transform: translateY(20px);
+    }
+}
+
+.main-2 .parallax-content {
 position: absolute;
     width: 100%;
     bottom: 0;
@@ -576,6 +615,10 @@ position: absolute;
     .container {
         width: 100%;
         padding: 0px;
+    }
+
+    .erra-white-logo {
+        width: 70%;
     }
 
   @media (max-width: 768px) 
