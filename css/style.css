@@ -474,6 +474,7 @@ position: absolute;
     transition: all 0.3s;
     background: white;
     color:black;
+    z-index: 2;
 }
 
 .phone-white {
