@@ -60,10 +60,19 @@ body::-webkit-scrollbar-thumb{
 
 
 .main-2 {
-    position:relative;
-    text-align:center;
+    position: relative;
     background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
-    color:white;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-2 > div {
+position: absolute;
+    width: 100%;
+    bottom: 0;
 }
 
 .inner-header {
