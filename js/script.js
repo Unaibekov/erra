@@ -1,3 +1,10 @@
+$('.video').parent().click(function () {
+	if($(this).children(".video").get(0).paused){        $(this).children(".video").get(0).play();   $(this).children(".play-button").fadeOut();
+	  }else{       $(this).children(".video").get(0).pause();
+	$(this).children(".play-button").fadeIn();
+	  }
+});
+
 // $(function() {
 //     var Accordion = function(el, multiple) {
 //       this.el = el || {};
@@ -295,5 +302,22 @@ $( () => {
 		},500);
 		e.preventDefault();
 	});	
+
+	
 });
+
+
+function openCity(evt, cityName) {
+	var i, tabcontent, tablinks;
+	tabcontent = document.getElementsByClassName("tabcontent");
+	for (i = 0; i < tabcontent.length; i++) {
+	  tabcontent[i].style.display = "none";
+	}
+	tablinks = document.getElementsByClassName("tablinks");
+	for (i = 0; i < tablinks.length; i++) {
+	  tablinks[i].className = tablinks[i].className.replace(" active", "");
+	}
+	document.getElementById(cityName).style.display = "block";
+	evt.currentTarget.className += " active";
+  }
   
