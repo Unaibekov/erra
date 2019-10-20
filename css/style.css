@@ -713,9 +713,12 @@ section {
 .adv {
     margin: 25px;
     width: 230px;
-    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
-    display: block;
+    height: 100px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+    display: flex;
     align-items: center;
+    padding-right: 15px;
 }
 
 .adv-text {
@@ -724,14 +727,19 @@ section {
 }
 
 .adv-icon {
+    width: 70px;
+    height: 70px;
     margin: 0;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.adv img {
+.adv-icon img {
     height: 40px;
-    margin-bottom: 15px;
+    width: auto;
 }
-
 .header {
     padding: 20px 0;
     position: fixed;
@@ -844,6 +852,17 @@ section {
     background-attachment: fixed;
 }
 
+.background_3 {
+    background: url(../img/bg.jpg) no-repeat center / cover;
+    height: 400px;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
 footer {
     background: #6e7a8c;
     padding: 5%;
@@ -903,11 +922,17 @@ footer {
     .adv {
     display: flex;
     align-items: center;
+    margin: 0px 0 15px;
+    width: 100%;
     }
+
+    
 
     .adv-icon {
     margin: 15px;
     }
+
+   
 
     .block-adv {
     display: flex;
@@ -936,6 +961,10 @@ footer {
 
     .head-title {
         font-size: 20px;
+    }
+
+    .advantages {
+        padding: 40px 0;
     }
 
     div#captioned-gallery { 
