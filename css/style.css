@@ -43,6 +43,10 @@ body::-webkit-scrollbar-thumb{
     justify-content: space-between;
 }
 
+.a-center {
+    align-items: center;
+}
+
 .j-center {
     justify-content: center;
 }
@@ -356,13 +360,14 @@ position: absolute;
     
 
 
+footer i {
+    color: black;   
+    cursor: pointer; 
+}
 
-
-
-
-
-
-
+footer i:hover {
+    color: white;    
+}
 
 
 
@@ -407,7 +412,7 @@ section {
     display: flex; 
     justify-content: center;
     align-items: center;
-    padding: 5% 5% 0;
+    padding: 5%;
     background: #fff;
     flex-direction: column;
 }
