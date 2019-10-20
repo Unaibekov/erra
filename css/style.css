@@ -406,8 +406,10 @@ position: absolute;
 section {
     display: flex; 
     justify-content: center;
+    align-items: center;
     padding: 5% 5% 0;
     background: #fff;
+    flex-direction: column;
 }
   
 .adv-list-items {
@@ -571,7 +573,14 @@ section {
     background-attachment: fixed;
 }
 
-
+footer {
+    background: #6e7a8c;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 
 
