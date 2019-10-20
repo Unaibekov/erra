@@ -229,10 +229,21 @@ position: absolute;
 .head-title {
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: #0047bb;    
+}
+
+.head-sub-title {
+    text-align: center;
     margin-bottom: 30px;
     font-size: 20px;
-    letter-spacing: 5px;
     font-weight: 100;
+}
+
+.advantages {
+    padding: 40px;
 }
 
 .mouse-wrapper {
@@ -319,10 +330,8 @@ position: absolute;
       box-sizing: border-box;
     }
     figure { 
-      margin: 0; background: #101010;
-      font-family: Istok Web, sans-serif;
+      margin: 0;
       font-weight: 100;
-      /* display: flex; */
     }
     div#captioned-gallery { 
       width: 65%;
@@ -394,10 +403,10 @@ position: absolute;
 
 }
 
-.erra-section {
+section {
     display: flex; 
     justify-content: center;
-    padding: 5%;
+    padding: 5% 5% 0;
     background: #fff;
 }
   
@@ -429,7 +438,7 @@ position: absolute;
 
 
 .adv {
-    margin: 0 25px 25px;
+    margin: 25px;
     width: 230px;
     border-bottom: 3px solid rgba(0, 0, 0, 0.1);
     display: block;
@@ -639,6 +648,10 @@ position: absolute;
 
     .erra-white-logo {
         width: 70%;
+    }
+
+    .head-title {
+        font-size: 20px;
     }
 
     div#captioned-gallery { 
