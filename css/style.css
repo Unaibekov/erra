@@ -89,6 +89,7 @@ body::-webkit-scrollbar-thumb{
     margin: 20% 0 10% 5%;
     background: rgba(255, 255, 255, 0.6);
     padding: 30px;
+    border-radius: 20px;
 }
 
 .title-details {
