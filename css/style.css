@@ -133,13 +133,21 @@ body::-webkit-scrollbar-thumb{
 
 
 .description {
-  width: 1200px;
+  width: 960px;
   flex-direction: row;
+  margin-top: 20px;
 }
 
 .description-column {
   margin: 0px 20px;
 }
+
+.description-row {
+  padding: 10px 0px;
+  font-weight: 100;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
 
 
 /* =====
@@ -323,9 +331,41 @@ position: absolute;
     opacity: 0;
 }
 
+.gallery-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 960px;
+  margin: 40px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .video {
     width: 100%;
+    margin-top: 40px;
 }
 
 .play-button {
@@ -520,10 +560,6 @@ position: absolute;
     margin-bottom: 30px;
     font-size: 20px;
     font-weight: 100;
-}
-
-.advantages {
-    padding: 40px 0 0;
 }
 
 .mouse-wrapper {
@@ -789,7 +825,6 @@ section {
     border-right: 2px solid rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
-    padding-right: 15px;
 }
 
 .adv-text {
@@ -1052,8 +1087,14 @@ footer {
     }
 
     .description-column {
-      margin: 20px 0px;
+      margin: 0px 0px;
     }
+
+    .gallery-content {
+      width: 100%;
+    }
+
+    
 
     div#captioned-gallery { 
         width: 100%;
