@@ -51,6 +51,10 @@ body::-webkit-scrollbar-thumb{
     justify-content: center;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 /* .main {
     background: url(../img/bg.jpg) no-repeat center / cover;
     display: flex;
@@ -124,6 +128,70 @@ body::-webkit-scrollbar-thumb{
 #main .main-detail {
     height: 50%;
     animation: h 3.5s alternate both infinite;
+}
+
+
+.description {
+  width: 1200px;
+  flex-direction: row;
+}
+
+.description-column {
+  margin: 0px 20px;
+}
+
+
+/* =====
+* Basic styling
+* ===== */
+
+
+.hide { 
+  display: none; 
+}
+
+
+.accordion {
+list-style: none;
+padding: 0;
+}
+.accordion li {
+margin-bottom: 1em;
+}
+.toggle {
+width: 100%;
+display: block;
+height: 2.5em;
+line-height: 2.5em;
+
+background: #333;
+border-radius: 3px;
+color: #fff;
+cursor: pointer;
+text-align: center;
+
+transition: background .3s ease;
+}
+.toggle:hover { background: #222 }
+.inner {
+text-align: left;
+padding: 0 1em;
+overflow: hidden;
+max-height: 0;
+
+transition: max-height .6s ease;
+}
+.inner *:first-child { margin-top: 1em }
+.inner *:last-child { margin-bottom: 1em }
+.inner img { display: block; margin: 0 auto }
+
+/* =====
+* Functionality
+* ===== */
+.accordion input[type="checkbox"]:checked + li > .inner {
+max-height: 350px; /* CSS can't animate to height:auto; :( */ 
+/* set max-height to a higher value if you want large accordions */
+/* alternatively we could just do fixed-height, but dat's ugly yo */
 }
 
 .content {
@@ -975,6 +1043,15 @@ footer {
 
     .product {
         width: 100%;
+    }
+
+    .description {
+      width: 100%;
+      flex-direction: column;
+    }
+
+    .description-column {
+      margin: 20px 0px;
     }
 
     div#captioned-gallery { 
