@@ -1074,8 +1074,9 @@ section {
 
 .close-modal {
   position: absolute;
-  right: 20px;
-  top: 55px;
+  right: 15px;
+  top: 35px;
+  z-index: 99;
 }
 
 .add-cart {
@@ -1263,7 +1264,7 @@ footer {
   }
 
   .overlay .modal.open .content-modal {
-    height: 85vh;
+    height: 75vh;
     overflow-y: scroll;    
   }
 
