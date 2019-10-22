@@ -23,6 +23,11 @@ body::-webkit-scrollbar-thumb{
     background-color: #6e7a8c;
   }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .white {
     fill: white;    
 }
@@ -763,6 +768,8 @@ section {
   transition: .5s ease;
   box-shadow: 0 0 30px 1px rgba(110, 124, 138, 0.2);
   flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
   .product:hover {
@@ -1030,8 +1037,7 @@ section {
 .overlay .modal.open .content-modal {
   transform: translate(0, 0px);
   opacity: 1;
-  height: 95vh;
-  overflow-y: scroll;
+  height: auto;  
 }
 .overlay .modal .content-modal {
   transform: translate(0, -10px);
@@ -1058,19 +1064,30 @@ section {
 
 .modal-inner {
   padding: 25px;
+  overflow-y: scroll;
 }
 
-.modal-inner .siz-avatar {
-  width: 260px;
-  height: 260px;
+.content-modal img {
+  height: 200px;
+  margin-top: 20px;
 }
 
 .close-modal {
   position: absolute;
-  right: 10px;
+  right: 20px;
+  top: 55px;
 }
 
-
+.add-cart {
+  border-radius: 50px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #6e7a8c;
+  margin-top: 20px;
+  font-weight: 100;
+  font-size: 14px;
+}
 
 
 
@@ -1245,13 +1262,10 @@ footer {
     align-items: center;
   }
 
-  .modal-inner .siz-avatar {
-    width: 200px;
-    height: 200px;
+  .overlay .modal.open .content-modal {
+    height: 85vh;
+    overflow-y: scroll;    
   }
-
-
-
 
 
 
