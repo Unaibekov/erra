@@ -500,7 +500,7 @@ position: absolute;
   }
   
   /* Style the buttons inside the tab */
-  .tab button {
+  .tab .tablinks {
     background-color: inherit;
     float: left;
     border: none;
@@ -512,12 +512,12 @@ position: absolute;
   }
   
   /* Change background color of buttons on hover */
-  .tab button:hover {
+  .tab .tablinks:hover {
     background-color: #ddd;
   }
   
   /* Create an active/current tablink class */
-  .tab button.active {
+  .tab .tablinks.active {
     background-color: #ccc;
   }
   
@@ -1075,7 +1075,7 @@ section {
 .close-modal {
   position: absolute;
   right: 15px;
-  top: 35px;
+  top: 15px;
   z-index: 99;
 }
 
@@ -1264,7 +1264,7 @@ footer {
   }
 
   .overlay .modal.open .content-modal {
-    height: 75vh;
+    height: 85vh;
     overflow-y: scroll;    
   }
 

@@ -63,11 +63,17 @@
     </div>
 </main>
 <section>
-    <div class="head-title">Смесители</div>
-    <div class="head-sub-title">Для заказа комплекта ERRA выберите понравившийся смеситель</div>
+    <div class="head-title">Для формирования заказа выберите смеситель</div>
+    <div class="head-sub-title">Нажмите на тип смесителя</div>
     <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'wall')">На стену</button>
-        <button class="tablinks" onclick="openCity(event, 'bath')">На борт ванны</button>
+        <div class="tablinks" onclick="openCity(event, 'wall')">
+            <img style="height: 30px;" src="img/color-erra.svg" alt="">
+            На стену
+        </div>
+        <div class="tablinks" onclick="openCity(event, 'bath')">
+            <img style="height: 30px;" src="img/color-erra.svg" alt="">
+            На борт ванны
+        </div>
     </div>        
     <div id="wall" class="tabcontent">
         <div class="adv-list-items">
@@ -84,12 +90,14 @@
                     </svg>
                 </a>
                 <div class="modal" id="modal1">                    
-                    <div class="content-modal">            
-                        <img src="img/product/AGGER_GORGEOUS_латунь.jpg" alt="Avatar">
+                    <div class="content-modal">
+                        <div class="head-product">
+                            <img src="img/product/AGGER_GORGEOUS_латунь.jpg" alt="Avatar">
+                            <div class="head-title">Agger Gorgeous</div>
+                            <div class="add-cart">Добавить в комплект</div>
+                        </div>
                         <div class="dflex column modal-inner">
-                            <div class="w100 dflex a-center flex-column">
-                                <div class="head-title">Agger Gorgeous</div>
-                                <div class="add-cart">Добавить в комплект</div>
+                            <div class="w100 dflex a-center flex-column">                                
                                 <div class="description dflex space-between">
                                     <div class="description-column w100">
                                         <div class="dflex space-between description-row">
@@ -137,7 +145,8 @@
                     </div>	
                 </div>
             </div>
-        </div>        
+        </div>
+    </div>   
     <div id="bath" class="tabcontent">
         <div class="adv-list-items">
             <div class="product">
