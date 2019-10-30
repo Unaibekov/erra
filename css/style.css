@@ -758,7 +758,6 @@ section {
 
   .product:hover {
     transition: .5s ease;
-    z-index: 9;
     box-shadow: 0 10px 45px 0 rgba(0, 26, 49, 0.4);
   }
 
@@ -1061,8 +1060,8 @@ section {
 
 .close-modal {
   position: absolute;
-  right: 15px;
-  top: 15px;
+  right: 20px;
+  top: -35px;
   z-index: 99;
 }
 
@@ -1075,31 +1074,23 @@ section {
   margin-top: 20px;
   font-weight: 100;
   font-size: 14px;
+  cursor: pointer;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.add-cart:hover {
+  color: #fff;
+  background: #0047bb;
+  border: 1px solid #0047bb;
+}
 
 footer {
-    background: #6e7a8c;
-    padding: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+  background: #6e7a8c;
+  padding: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-
-
 
 @media (max-width: 1024px)
 {
