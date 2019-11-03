@@ -7,7 +7,7 @@
     <title>ERRA</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
 <body>
@@ -20,45 +20,37 @@
     </div>
 </div>
 <main id="details">
-    <div class="main-title-details">
-        <div class="title-details">Стоимость комплекта<br><span style="font-size: 40px;">24 990</span><i class="fa fa-rub" aria-hidden="true"></i></div>
-        <div class="sub-title-details">
-            <div style="margin-bottom: 10px;">В комплект входит:</div>
-            <div class="dflex">
-                <i style="margin-right: 10px;" class="fa fa-check" aria-hidden="true"></i>
-                <div>
-                    <div style="font-weight: 700; margin-bottom: 20px;">Форсунка для подачи воды<br>
-                    <span style="font-size: 14px; font-weight: 100; color: grey;">Устройство для нижнего набора воды в ванную</span></div>
-                </div>
-            </div>
-            <div class="dflex">
-                <i style="margin-right: 10px;" class="fa fa-check" aria-hidden="true"></i>
-                <div style="font-weight: 700; margin-bottom: 20px;">Шланг соединительный</div>
-            </div>
-            <div class="dflex">
-                <i style="margin-right: 10px;" class="fa fa-check" aria-hidden="true"></i>
-                <div>
-                    <div style="font-weight: 700; margin-bottom: 20px;">Фитинги и прокладки<br>
-                    <span style="font-size: 14px; font-weight: 100; color: grey;">Уголок латунный 1/2 дюйма, прокладки 3 шт.</span></div>
-                </div>
-            </div>
-            <div class="dflex">
-                <i style="margin-right: 10px;" class="fa fa-check" aria-hidden="true"></i>
-                <div style="font-weight: 700; margin-bottom: 20px;">Руководство пользователя</div>
-            </div>
-            <div class="dflex">
-                <i style="margin-right: 10px;" class="fa fa-check" aria-hidden="true"></i>
-                <div>
-                    <div style="font-weight: 700;">Смеситель<br>
-                    <span style="font-size: 14px; font-weight: 100; color: grey;">Входит в стоимость и выбирается отдельно</span></div>
-                </div>
-            </div>
-        </div> 
+    <div class="details-block">
+        <div class="details-block-title">Стоимость комплекта<br><span class="cost">24 990</span><i class="fa fa-rub" aria-hidden="true"></i></div>
+        <div style="margin-bottom: 10px;">В комплект входит:</div>
+        <div class="dflex">
+            <i style="margin-right: 10px;" class="fa fa-check" aria-hidden="true"></i>
+            <div class="details-block-item">Форсунка для подачи воды<br>
+            <span style="font-weight: 100; color: grey;">Устройство для нижнего набора воды в ванную</span></div>
+        </div>
+        <div class="dflex">
+            <i style="margin-right: 10px;" class="fa fa-check" aria-hidden="true"></i>
+            <div class="details-block-item">Шланг соединительный</div>
+        </div>
+        <div class="dflex">
+            <i style="margin-right: 10px;" class="fa fa-check" aria-hidden="true"></i>
+            <div class="details-block-item">Фитинги и прокладки<br>
+            <span style="font-weight: 100; color: grey;">Уголок латунный 1/2 дюйма, прокладки 3 шт.</span></div>
+        </div>
+        <div class="dflex">
+            <i style="margin-right: 10px;" class="fa fa-check" aria-hidden="true"></i>
+            <div class="details-block-item">Руководство пользователя</div>
+        </div>
+        <div class="dflex">
+            <i style="margin-right: 10px;" class="fa fa-check" aria-hidden="true"></i>
+            <div class="details-block-item">Смеситель<br>
+            <span style="font-weight: 100; color: grey;">Входит в стоимость и выбирается отдельно</span></div>
+        </div>
     </div>
 </main>
 <section>
-    <div class="head-title">Для формирования заказа выберите смеситель</div>
-    <div class="head-sub-title">Нажмите на тип смесителя</div>
+    <div class="section-title">Для формирования заказа выберите смеситель</div>
+    <div class="section-sub-title">Нажмите на тип смесителя</div>
     <div class="tab">
         <div class="tablinks" onclick="openCity(event, 'wall')">
             <img style="height: 85px; margin-right: 20px;" src="img/shover-tap.png" alt="">
@@ -88,14 +80,14 @@
                         <div class="head-product">
                             <img src="img/product/GROHE_EUROSMART.jpeg" alt="Avatar">
                             <div>
-                                <div class="head-title">Grohe Eurosmart</div>
+                                <div class="section-title">Grohe Eurosmart</div>
                                 <a href="order.html">
                                     <div class="add-cart">Добавить в комплект</div>
                                 </a>
                             </div>
                         </div>
                         <div class="dflex column modal-inner">
-                            <div class="description-column w100">
+                            <div class="details-details-details-description-column w100">
                                 <div class="dflex space-between description-row">
                                     <div>Управление</div>
                                     <div>Рычажное</div>
@@ -159,13 +151,13 @@
                         </a>
                         <div class="head-product">
                             <img src="img/product/HANSGROHE_LOGIS.jpeg" alt="Avatar">
-                            <div class="head-title">Hansgrohe Logis</div>
+                            <div class="section-title">Hansgrohe Logis</div>
                             <div class="add-cart">Добавить в комплект</div>
                         </div>
                         <div class="dflex column modal-inner">
                             <div class="w100 dflex a-center flex-column">                                
                                 <div class="description dflex space-between">
-                                    <div class="description-column w100">
+                                    <div class="details-details-details-description-column w100">
                                         <div class="dflex space-between description-row">
                                             <div>Управление</div>
                                             <div>Рычажное</div>
@@ -231,13 +223,13 @@
                         </a>
                         <div class="head-product">
                             <img src="img/product/ORANGE_OTTO.jpeg" alt="Avatar">
-                            <div class="head-title">1 Orange Otto</div>
+                            <div class="section-title">1 Orange Otto</div>
                             <div class="add-cart">Добавить в комплект</div>
                         </div>
                         <div class="dflex column modal-inner">
                             <div class="w100 dflex a-center flex-column">                                
                                 <div class="description dflex space-between">
-                                    <div class="description-column w100">
+                                    <div class="details-details-details-description-column w100">
                                         <div class="dflex space-between description-row">
                                             <div>Управление</div>
                                             <div>Рычажное</div>
@@ -303,13 +295,13 @@
                         </a>
                         <div class="head-product">
                             <img src="img/product/AGGER_GORGEOUS.jpeg" alt="Avatar">
-                            <div class="head-title">Agger Gorgeous</div>
+                            <div class="section-title">Agger Gorgeous</div>
                             <div class="add-cart">Добавить в комплект</div>
                         </div>
                         <div class="dflex column modal-inner">
                             <div class="w100 dflex a-center flex-column">                                
                                 <div class="description dflex space-between">
-                                    <div class="description-column w100">
+                                    <div class="details-details-details-description-column w100">
                                         <div class="dflex space-between description-row">
                                             <div>Управление</div>
                                             <div>Рычажное</div>
@@ -371,13 +363,13 @@
                         </a>
                         <div class="head-product">
                             <img src="img/product/GROHE_BAUCLASSIC.jpeg" alt="Avatar">
-                            <div class="head-title">Grohe BauClassic</div>
+                            <div class="section-title">Grohe BauClassic</div>
                             <div class="add-cart">Добавить в комплект</div>
                         </div>
                         <div class="dflex column modal-inner">
                             <div class="w100 dflex a-center flex-column">                                
                                 <div class="description dflex space-between">
-                                    <div class="description-column w100">
+                                    <div class="details-details-details-description-column w100">
                                         <div class="dflex space-between description-row">
                                             <div>Управление</div>
                                             <div>Рычажное</div>
@@ -443,13 +435,13 @@
                         </a>
                         <div class="head-product">
                             <img src="img/product/BRAVAT_ELER.jpeg" alt="Avatar">
-                            <div class="head-title">Bravat Eler</div>
+                            <div class="section-title">Bravat Eler</div>
                             <div class="add-cart">Добавить в комплект</div>
                         </div>
                         <div class="dflex column modal-inner">
                             <div class="w100 dflex a-center flex-column">                                
                                 <div class="description dflex space-between">
-                                    <div class="description-column w100">
+                                    <div class="details-details-details-description-column w100">
                                         <div class="dflex space-between description-row">
                                             <div>Управление</div>
                                             <div>Рычажное</div>
@@ -515,13 +507,13 @@
                         </a>
                         <div class="head-product">
                             <img src="img/product/WASSERKRAFT_DONAU.jpeg" alt="Avatar">
-                            <div class="head-title">Wasserkraft Donau</div>
+                            <div class="section-title">Wasserkraft Donau</div>
                             <div class="add-cart">Добавить в комплект</div>
                         </div>
                         <div class="dflex column modal-inner">
                             <div class="w100 dflex a-center flex-column">                                
                                 <div class="description dflex space-between">
-                                    <div class="description-column w100">
+                                    <div class="details-details-details-description-column w100">
                                         <div class="dflex space-between description-row">
                                             <div>Управление</div>
                                             <div>Рычажное</div>
@@ -587,13 +579,13 @@
                         </a>
                         <div class="head-product">
                             <img src="img/product/ORAS_POLARA.jpeg" alt="Avatar">
-                            <div class="head-title">Oras Polara</div>
+                            <div class="section-title">Oras Polara</div>
                             <div class="add-cart">Добавить в комплект</div>
                         </div>
                         <div class="dflex column modal-inner">
                             <div class="w100 dflex a-center flex-column">                                
                                 <div class="description dflex space-between">
-                                    <div class="description-column w100">
+                                    <div class="details-details-details-description-column w100">
                                         <div class="dflex space-between description-row">
                                             <div>Управление</div>
                                             <div>Рычажное</div>
@@ -659,13 +651,13 @@
                         </a>
                         <div class="head-product">
                             <img src="img/product/KLUDI_BOZZ.jpeg" alt="Avatar">
-                            <div class="head-title">Kludi Bozz</div>
+                            <div class="section-title">Kludi Bozz</div>
                             <div class="add-cart">Добавить в комплект</div>
                         </div>
                         <div class="dflex column modal-inner">
                             <div class="w100 dflex a-center flex-column">                                
                                 <div class="description dflex space-between">
-                                    <div class="description-column w100">
+                                    <div class="details-details-details-description-column w100">
                                         <div class="dflex space-between description-row">
                                             <div>Управление</div>
                                             <div>Рычажное</div>
@@ -731,13 +723,13 @@
                         </a>
                         <div class="head-product">
                             <img src="img/product/BOHEME_TRADIZIONALE.jpeg" alt="Avatar">
-                            <div class="head-title">Boheme Tradizionale</div>
+                            <div class="section-title">Boheme Tradizionale</div>
                             <div class="add-cart">Добавить в комплект</div>
                         </div>
                         <div class="dflex column modal-inner">
                             <div class="w100 dflex a-center flex-column">                                
                                 <div class="description dflex space-between">
-                                    <div class="description-column w100">
+                                    <div class="details-details-details-description-column w100">
                                         <div class="dflex space-between description-row">
                                             <div>Управление</div>
                                             <div>Рычажное</div>
@@ -801,12 +793,12 @@
                         </a>
                         <div class="head-product">
                             <img src="img/product/KLUDI_AMEO.jpeg" alt="Avatar">
-                            <div class="head-title">Kludi Ameo</div>
+                            <div class="section-title">Kludi Ameo</div>
                             <div class="add-cart">Добавить в комплект</div>
                         </div>
                         <div class="dflex column modal-inner">
                             <div class="w100 dflex a-center flex-column">                                
-                                <div class="description-column w100">
+                                <div class="details-details-details-description-column w100">
                                     <div class="dflex space-between description-row">
                                         <div>Управление</div>
                                         <div>Рычажное</div>
@@ -871,12 +863,12 @@
                         </a>
                         <div class="head-product">
                             <img src="img/product/RAV_SLEZAK_DUNAJ.jpeg" alt="Avatar">
-                            <div class="head-title">Rav Slezak Dunaj</div>
+                            <div class="section-title">Rav Slezak Dunaj</div>
                             <div class="add-cart">Добавить в комплект</div>
                         </div>
                         <div class="dflex column modal-inner">
                             <div class="w100 dflex a-center flex-column">
-                                <div class="description-column w100">
+                                <div class="details-details-details-details-description-column w100">
                                     <div class="dflex space-between description-row">
                                         <div>Управление</div>
                                         <div>Рычажное</div>
@@ -940,12 +932,12 @@
                         </a>
                         <div class="head-product">
                             <img src="img/product/AQUANET.jpeg" alt="Avatar">
-                            <div class="head-title">Aquanet</div>
+                            <div class="section-title">Aquanet</div>
                             <div class="add-cart">Добавить в комплект</div>
                         </div>
                         <div class="dflex column modal-inner">
                             <div class="w100 dflex a-center flex-column">
-                                <div class="description-column w100">
+                                <div class="details-details-details-details-description-column w100">
                                     <div class="dflex space-between description-row">
                                         <div>Управление</div>
                                         <div>Рычажное</div>
