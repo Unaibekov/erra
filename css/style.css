@@ -230,7 +230,20 @@ a {
     transform: translate3d(85px,0,0);
   }
 }
-
+.content {
+  position:relative;
+  height:20vh;
+  text-align:center;
+  background-color: white;
+}
+@keyframes h {
+  0% {
+      transform: translateY(-20px);
+  }
+  100% { 
+      transform: translateY(20px);
+  }
+}
 @media (max-width: 768px) {
   .waves {
     height:40px;
@@ -277,8 +290,6 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  transition: 1s;
-  animation-delay: 1s;
   width: 1200px;
 }
 
@@ -645,6 +656,7 @@ footer i:hover {
   align-items: center;
   width: 260px;
   margin: 5px;
+  border-radius: 15px;
 }
 
 .tablinks:hover {
@@ -717,11 +729,6 @@ footer i:hover {
 .overlay .modal .title {
   margin-top: 0;
 }
-
-.open-modal {
-  /* width: unset; */
-}
-
 .modal-title {
   padding: 15px;
   width: 100%;
@@ -832,32 +839,6 @@ input {
   margin: 5px 0;
 }
 
-.content {
-  position:relative;
-  height:20vh;
-  text-align:center;
-  background-color: white;
-}
-
-@keyframes h {
-  0% {
-      transform: translateY(-20px);
-  }
-  100% { 
-      transform: translateY(20px);
-  }
-}
-
-
-
-  
-
-.container {
-    width: 1200px;
-    padding: 0 30px;
-}
-
-
 .block-adv {
     display: flex;
     flex-direction: row;
@@ -888,16 +869,16 @@ input {
     font-weight: 100;
 
 }
+
+/* ACCESS ORDER */
   
-
-
 .btn-cancel-order {
   padding: 10px 20px;
   border-radius: 50px;
-  border: 2px solid white;
+  border: 2px solid #f9f9f9;
   cursor: pointer;
   font-weight: 700;
-  margin: 5px;
+  margin: 20px 20px 0 0;
 }
 
 .btn-cancel-order:hover {
@@ -913,7 +894,8 @@ input {
   background: #0047bb;
   color: white;
   cursor: pointer;
-  margin: 5px;
+  margin: 20px 20px 0 0;
+  font-weight: 700;
 }
 
 .btn-access-order:hover {
@@ -921,6 +903,8 @@ input {
   background: #1f74ff;
   color: white;
 }
+
+/* FOOTER */
 
 footer {
   background: #6e7a8c;
@@ -930,9 +914,6 @@ footer {
   justify-content: center;
   flex-direction: column;
 }
-
-
-
 
 
 @media (max-width: 1024px)
@@ -992,10 +973,6 @@ footer {
     align-items: center;
     margin: 0px 0 15px;
     width: 100%;
-  }
-
-  .adv-list-items {
-    width: auto;
   }
 
   .adv-icon {
@@ -1058,6 +1035,7 @@ footer {
   .adv-list-items {
     width: auto;
   }
+
   div#captioned-gallery { 
     width: 100%;
   }

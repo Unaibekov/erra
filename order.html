@@ -13,26 +13,26 @@
 <body>
 <div class="header nav">
     <a style="margin-left: 5%;" href="index.html">
-        <img style="height: 30px;" src="img/color-erra.svg" alt="">
+        <img class="logo" src="img/color-erra.svg" alt="">
     </a>
-    <div style="margin-right: 5%; font-weight: 700; font-size: 24px;" class="phone-white">
-        8 800 201 28 26
-    </div>    
+    <div class="header-right-block dflex a-center">
+        <div class="phone phone-white">8 800 201 28 26</div>
+    </div>
 </div>
 <main id="details">
-    <div class="main-title-details">
-        <div class="title-details">Ваш комплект стоит<br><span style="font-size: 40px;">24 990</span><i class="fa fa-rub" aria-hidden="true"></i></div>
-        <div class="sub-title-details">
-            <div style="margin-bottom: 10px;">В комплект входит:</div>
-            <div>Устройство ERRA</div>
-            <div>Добавленный смеситель</div>
-            <input type="text" placeholder="Имя" required>
-            <input type="text" placeholder="Номер телефона" required>
-            <div class="dflex">
-                <a href="details.html" class="btn-cancel-order">Отменить</a>
-                <div class="btn-access-order">Отправить заявку</div>
-            </div>
-        </div> 
+    <div class="details-block">
+        <div class="details-block-title">Ваш комплект стоит<br><span class="cost">24 990</span><i class="fa fa-rub" aria-hidden="true"></i></div>
+        <div style="margin-bottom: 10px;">В комплект входит:</div>
+        <div style="text-align: left !important; margin-bottom: 5px;" class="section-title">Устройство ERRA</div>
+        <div style="text-align: left !important; margin-bottom: 5px;" class="section-title">Cмеситель {Название}</div>
+        <div style="text-align: left !important; margin-bottom: 0px;" class="section-title">{Cопутствующий товар}</div>
+        <div style="margin: 20px 0 5px;">Для отправки заявки заполните форму:</div>
+        <input type="text" placeholder="Имя">
+        <input type="text" placeholder="Номер телефона">
+        <div class="dflex">
+            <a href="details.html" class="btn-cancel-order">Отменить</a>
+            <div class="btn-access-order">Отправить</div>
+        </div>
     </div>
 </main>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
