@@ -117,7 +117,6 @@ a {
 .order {
   color: #ffffff;
   padding: 10px 20px;
-  /* border-radius: 50px; */
   text-transform: uppercase;
   font-weight: 700;
   margin-left: 30px;
@@ -1044,6 +1043,15 @@ footer {
 
   .details-block {
     width: 90%;
+  }
+
+  .order {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+
+  .logo {
+    height: 20px; 
   }
 
 @media (max-width: 768px) 
