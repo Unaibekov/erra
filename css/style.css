@@ -311,10 +311,10 @@ section {
 }
 
 
-.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+.carousel-item.active {
   display: flex;
   align-items: center;
-  height: 400px;
+  height: 100%;
   overflow: hidden;
 }
 
