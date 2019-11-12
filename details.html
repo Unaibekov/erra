@@ -6,932 +6,1327 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ERRA</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap&subset=cyrillic" rel="stylesheet">
 </head>
 <body>
 <div class="header nav">
-    <a style="margin-left: 5%;" href="index.html">
-        <img class="logo" src="img/color-erra.svg" alt="">
-    </a>
-    <div class="header-right-block dflex a-center">
-        <div class="phone phone-white">8 800 201 28 26</div>
+    <div class="container">
+        <div class="row justify-content-between">
+            <a href="index.html">
+                <img class="logo ml-3" src="img/color-erra.svg" alt="">
+            </a>
+            <div class="phone phone-white mr-3">8 800 201 28 26</div>
+        </div>
     </div>
 </div>
 <main id="details">
-    <div class="details-block">
-        <div class="details-block-title">Стоимость комплекта<br><span class="cost">24 990</span><i class="fa fa-rub" aria-hidden="true"></i></div>
-        <div style="margin-bottom: 10px;">В комплект входит:</div>
-        <div class="dflex">
-            <img style="height: 15px; margin: 5px 10px;" src="img/check.svg">
-            <div class="details-block-item">Форсунка для подачи воды<br>
-            <span style="font-weight: 100; color: grey;">Устройство для нижнего набора воды в ванную</span></div>
-        </div>
-        <div class="dflex">
-            <img style="height: 15px; margin: 5px 10px;" src="img/check.svg">           
-            <div class="details-block-item">Шланг соединительный</div>
-        </div>
-        <div class="dflex">
-            <img style="height: 15px; margin: 5px 10px;" src="img/check.svg">        
-            <div class="details-block-item">Фитинги и прокладки<br>
-            <span style="font-weight: 100; color: grey;">Уголок латунный 1/2 дюйма, прокладки 3 шт.</span></div>
-        </div>
-        <div class="dflex">
-            <img style="height: 15px; margin: 5px 10px;" src="img/check.svg">            
-            <div class="details-block-item">Руководство пользователя</div>
-        </div>
-        <div class="dflex">
-            <img style="height: 15px; margin: 5px 10px;" src="img/check.svg">            
-            <div class="details-block-item">Смеситель<br>
-            <span style="font-weight: 100; color: grey;">Входит в стоимость и выбирается отдельно</span></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 details-block">
+                <div class="details-block-title">Стоимость комплекта<br><span class="cost">24 990</span><i class="fa fa-rub" aria-hidden="true"></i></div>
+                <div style="margin-bottom: 10px;">В комплект входит:</div>
+                <div class="dflex">
+                    <img style="height: 15px; margin: 5px 10px;" src="img/check.svg">
+                    <div class="details-block-item">Форсунка для подачи воды<br>
+                    <span style="font-weight: 100; color: grey;">Устройство для нижнего набора воды в ванную</span></div>
+                </div>
+                <div class="dflex">
+                    <img style="height: 15px; margin: 5px 10px;" src="img/check.svg">           
+                    <div class="details-block-item">Шланг соединительный</div>
+                </div>
+                <div class="dflex">
+                    <img style="height: 15px; margin: 5px 10px;" src="img/check.svg">        
+                    <div class="details-block-item">Фитинги и прокладки<br>
+                    <span style="font-weight: 100; color: grey;">Уголок латунный 1/2 дюйма, прокладки 3 шт.</span></div>
+                </div>
+                <div class="dflex">
+                    <img style="height: 15px; margin: 5px 10px;" src="img/check.svg">            
+                    <div class="details-block-item">Руководство пользователя</div>
+                </div>
+                <div class="dflex">
+                    <img style="height: 15px; margin: 5px 10px;" src="img/check.svg">            
+                    <div class="details-block-item">Смеситель<br>
+                    <span style="font-weight: 100; color: grey;">Входит в стоимость и выбирается отдельно</span></div>
+                </div>
+            </div>
         </div>
     </div>
 </main>
 <section>
-    <div class="section-title">Для формирования заказа выберите смеситель</div>
-    <div style="background: #0047bb; height: 3px; width: 100px; margin-bottom: 10px;"></div>
-    <div class="section-sub-title">Нажмите на тип смесителя</div>
-    <div class="tab">
-        <div class="tablinks" onclick="openCity(event, 'wall')">
-            <img style="height: 85px; margin-right: 20px;" src="img/shover-tap.png" alt="">
-            На стену
+    <div class="container">
+		<div class="row flex-column align-items-center">
+            <div class="section-title">Для формирования заказа выберите смеситель</div>
+            <div style="background: #0047bb; height: 3px; width: 100px; margin-bottom: 10px;"></div>
+            <div class="section-sub-title">Нажмите на тип смесителя</div>
         </div>
-        <div class="tablinks" onclick="openCity(event, 'bath')">
-            <img style="height: 85px; margin-right: 20px;" src="img/shover-tap-2.png" alt="">
-            На борт ванны
-        </div>
-    </div>        
-    <div id="wall" class="tabcontent">
-        <div class="adv-list-items">
-            <a href="#" class="open-modal product" data-modal="#modal1">
-                <div class="product-image">
-                    <img src="img/product/GROHE_EUROSMART.jpeg" alt="Avatar">
+		<div class="row flex-column align-items-center">        
+            <div class="tab">
+                <div class="tablinks" onclick="openCity(event, 'wall')">
+                    <img style="height: 85px; margin-right: 20px;" src="img/shover-tap.png" alt="">
+                    На стену
                 </div>
-                <div class="product-name">Grohe Eurosmart</div>                 
-            </a> 
-            <div class="overlay">                
-                <div class="modal" id="modal1">                    
-                    <div class="content-modal">
-                        <a class="close-modal" data-modal="#modal1" href="#">
-                            <svg class="evendodd drawsvg-initialized " width="20px" height="20px" viewBox="0 0 300 300">
-                            <path fill="white" d="M28 232l82 -82 -82 -82c-4,-4 -4,-10 0,-14l27 -27c4,-4 10,-4 14,0l82 82 82 -82c4,-4 10,-4 14,0l27 27c4,4 4,10 0,14l-82 82 82 82c4,4 4,10 0,14l-27 27c-4,4 -10,4 -14,0l-82 -82 -82 82c-4,4 -10,4 -14,0l-27 -27c-4,-4 -4,-10 0,-14z" style="stroke-dasharray: 1205.54, 1205.54; stroke-dashoffset: 0;"></path>
-                            </svg>
-                        </a>
-                        <div class="head-product">
+                <div class="tablinks" onclick="openCity(event, 'bath')">
+                    <img style="height: 85px; margin-right: 20px;" src="img/shover-tap-2.png" alt="">
+                    На борт ванны
+                </div>
+            </div>        
+            <div id="wall" class="tabcontent">
+                <div class="row justify-content-center">
+                    <div class="product" data-toggle="modal" data-target="#Modal1">
+                        <div class="product-image">
                             <img src="img/product/GROHE_EUROSMART.jpeg" alt="Avatar">
-                            <div>
-                                <div class="section-title">Grohe Eurosmart</div>
-                                <a href="order.html">
-                                    <div class="add-cart">Добавить в комплект</div>
-                                </a>
+                        </div>
+                        <div class="product-name">Grohe Eurosmart</div>    
+                    </div>
+                    <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <div class="row flex-column align-items-center mb-3">
+                                                <img class="modal-img" src="img/product/GROHE_EUROSMART.jpeg" alt="Avatar">
+                                                <div>
+                                                    <div class="section-title">Grohe Eurosmart</div>
+                                                    <a href="order.php">
+                                                        <a href="order.php?smesitel=Grohe Eurosmart"><div class="add-cart">Добавить в комплект</div></a>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Управление</div>
+                                                        <div>Со смесителя</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Материал</div>
+                                                        <div>Латунь</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Механизм</div>
+                                                        <div>Керамический картридж</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Ш/Г/В, см</div>
+                                                        <div>16,4 / 10,6 / 19,3</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Размер розетки, см</div>
+                                                        <div>16,4</div>                                                                
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Подводка</div>
+                                                        <div>1/2</div>                         
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Гарантия</div>
+                                                        <div>5 лет</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Страна производитель</div>
+                                                        <div>Германия</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Цвет</div>
+                                                        <div>Хром (глянцевый)</div>                                                           
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Оснащение</div>
+                                                        <div style="text-align: right;">Система быстрого монтажа</div>                     
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>  
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="description-product modal-inner">
-                            <div class="dflex space-between description-row">
-                                <div>Управление</div>
-                                <div>Рычажное</div>
-                            </div> 
-                            <div class="dflex space-between description-row">
-                                <div>Материал</div>
-                                <div>Латунь</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Механизм</div>
-                                <div>Керамический картридж</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Ш/Г/В, см</div>
-                                <div>16,4 / 10,6 / 19,3</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Размер розетки, см</div>
-                                <div>16,4</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Подводка</div>
-                                <div>1/2</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Гарантия</div>
-                                <div>5 лет</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Страна производитель</div>
-                                <div>Германия</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Цвет</div>
-                                <div>Хром (глянцевый)</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Оснащение</div>
-                                <div style="text-align: right;">Система быстрого монтажа</div>
-                            </div>
-                        </div>            
-                    </div>	
-                </div>
-            </div>
-            
-            
-            <a href="#" class="open-modal product" data-modal="#modal2">
-                <div class="product-image">
-                    <img src="img/product/HANSGROHE_LOGIS.jpeg" alt="Avatar">
-                </div>
-                <div class="product-name">Hansgrohe Logis</div>                 
-            </a> 
-            <div class="overlay">
-                <div class="modal" id="modal2">                    
-                    <div class="content-modal">
-                        <a class="close-modal" data-modal="#modal2" href="#">
-                            <svg class="evendodd drawsvg-initialized " width="20px" height="20px" viewBox="0 0 300 300">
-                            <path fill="white" d="M28 232l82 -82 -82 -82c-4,-4 -4,-10 0,-14l27 -27c4,-4 10,-4 14,0l82 82 82 -82c4,-4 10,-4 14,0l27 27c4,4 4,10 0,14l-82 82 82 82c4,4 4,10 0,14l-27 27c-4,4 -10,4 -14,0l-82 -82 -82 82c-4,4 -10,4 -14,0l-27 -27c-4,-4 -4,-10 0,-14z" style="stroke-dasharray: 1205.54, 1205.54; stroke-dashoffset: 0;"></path>
-                            </svg>
-                        </a>
-                        <div class="head-product">
+                    </div>
+
+                    <div class="product" data-toggle="modal" data-target="#Modal2">
+                        <div class="product-image">
                             <img src="img/product/HANSGROHE_LOGIS.jpeg" alt="Avatar">
-                            <div class="section-title">Hansgrohe Logis</div>
-                            <a href="order.html">
-                                <div class="add-cart">Добавить в комплект</div>
-                            </a>
                         </div>
-                        <div class="description-product modal-inner">
-                            <div class="dflex space-between description-row">
-                                <div>Управление</div>
-                                <div>Рычажное</div>
-                            </div> 
-                            <div class="dflex space-between description-row">
-                                <div>Материал</div>
-                                <div>Латунь</div>
+                        <div class="product-name">Hansgrohe Logis</div>    
+                    </div>
+                    <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <div class="row flex-column align-items-center mb-3">
+                                                <img class="modal-img" src="img/product/HANSGROHE_LOGIS.jpeg" alt="Avatar">
+                                                <div>
+                                                    <div class="section-title">Hansgrohe Logis</div>
+                                                    <a href="order.php">
+                                                        <a href="order.php?smesitel=Hansgrohe Logis"><div class="add-cart">Добавить в комплект</div></a>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Управление</div>
+                                                        <div>Со смесителя</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Материал</div>
+                                                        <div>Латунь</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Механизм</div>
+                                                        <div>Керамический картридж</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Ш/Г/В, см</div>
+                                                        <div>15 / 10,7 / 16</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Размер розетки, см</div>
+                                                        <div>16</div>                                                                
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Подводка</div>
+                                                        <div>1/2</div>                         
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Гарантия</div>
+                                                        <div>5 лет</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Страна производитель</div>
+                                                        <div>Германия</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Цвет</div>
+                                                        <div>Хром (глянцевый)</div>                                                           
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Оснащение</div>
+                                                        <div style="text-align: right;">Нет</div>                     
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>  
+                                    </div>
+                                </div>
                             </div>
-                            <div class="dflex space-between description-row">
-                                <div>Механизм</div>
-                                <div>Керамический картридж</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Ш/Г/В, см</div>
-                                <div>15 / 10,7 / 16</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Размер розетки, см</div>
-                                <div>16</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Подводка</div>
-                                <div>1/2</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Гарантия</div>
-                                <div>5 лет</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Страна производитель</div>
-                                <div>Германия</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Цвет</div>
-                                <div>Хром (глянцевый)</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Оснащение</div>
-                                <div style="text-align: right;">Нет</div>
-                            </div>
-                        </div>            
-                    </div>	
-                </div>
-            </div>
-            
-            <a href="#" class="open-modal product" data-modal="#modal3">
-                <div class="product-image">
-                    <img src="img/product/ORANGE_OTTO.jpeg" alt="Avatar">
-                </div>
-                <div class="product-name">1 Orange Otto</div>                 
-            </a> 
-            <div class="overlay">
-                <div class="modal" id="modal3">
-                    <div class="content-modal">
-                        <a class="close-modal" data-modal="#modal3" href="#">
-                            <svg class="evendodd drawsvg-initialized " width="20px" height="20px" viewBox="0 0 300 300">
-                            <path fill="white" d="M28 232l82 -82 -82 -82c-4,-4 -4,-10 0,-14l27 -27c4,-4 10,-4 14,0l82 82 82 -82c4,-4 10,-4 14,0l27 27c4,4 4,10 0,14l-82 82 82 82c4,4 4,10 0,14l-27 27c-4,4 -10,4 -14,0l-82 -82 -82 82c-4,4 -10,4 -14,0l-27 -27c-4,-4 -4,-10 0,-14z" style="stroke-dasharray: 1205.54, 1205.54; stroke-dashoffset: 0;"></path>
-                            </svg>
-                        </a>
-                        <div class="head-product">
+                        </div>
+                    </div>
+
+                    <div class="product" data-toggle="modal" data-target="#Modal3">
+                        <div class="product-image">
                             <img src="img/product/ORANGE_OTTO.jpeg" alt="Avatar">
-                            <div class="section-title">1 Orange Otto</div>
-                            <a href="order.html">
-                                <div class="add-cart">Добавить в комплект</div>
-                            </a>
                         </div>
-                        <div class="description-product modal-inner">
-                            <div class="dflex space-between description-row">
-                                <div>Управление</div>
-                                <div>Рычажное</div>
-                            </div> 
-                            <div class="dflex space-between description-row">
-                                <div>Материал</div>
-                                <div>Латунь</div>
+                        <div class="product-name">1 Orange Otto</div>    
+                    </div>
+                    <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <div class="row flex-column align-items-center mb-3">
+                                                <img class="modal-img" src="img/product/ORANGE_OTTO.jpeg" alt="Avatar">
+                                                <div>
+                                                    <div class="section-title">1 Orange Otto</div>
+                                                    <a href="order.php">
+                                                        <a href="order.php?smesitel=1 Orange Otto"><div class="add-cart">Добавить в комплект</div></a>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Управление</div>
+                                                        <div>Со смесителя</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Материал</div>
+                                                        <div>Латунь</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Механизм</div>
+                                                        <div>Керамический картридж</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Ш/Г/В, см</div>
+                                                        <div>11,2 / 7,2 / 13,8</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Размер розетки, см</div>
+                                                        <div>11,2</div>                                                                
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Подводка</div>
+                                                        <div>1/2</div>                         
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Гарантия</div>
+                                                        <div>5 лет</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Страна производитель</div>
+                                                        <div>Германия</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Цвет</div>
+                                                        <div>Хром (глянцевый)</div>                                                           
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Оснащение</div>
+                                                        <div style="text-align: right;">Нет</div>                     
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>  
+                                    </div>
+                                </div>
                             </div>
-                            <div class="dflex space-between description-row">
-                                <div>Механизм</div>
-                                <div>Керамический картридж</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Ш/Г/В, см</div>
-                                <div>11,2 / 7,2 / 13,8</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Размер розетки, см</div>
-                                <div>11,2</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Подводка</div>
-                                <div>1/2</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Гарантия</div>
-                                <div>5 лет</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Страна производитель</div>
-                                <div>Германия</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Цвет</div>
-                                <div>Хром (глянцевый)</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Оснащение</div>
-                                <div style="text-align: right;">Душевой гарнитур, внутрення часть</div>
-                            </div>
-                        </div>            
-                    </div>	
-                </div>
-            </div>
+                        </div>
+                    </div>
 
-            <a href="#" class="open-modal product" data-modal="#modal4">
-                <div class="product-image">
-                    <img src="img/product/AGGER_GORGEOUS.jpeg" alt="Avatar">
-                </div>
-                <div class="product-name">Agger Gorgeous</div>                 
-            </a> 
-            <div class="overlay">
-                <div class="modal" id="modal4">                    
-                    <div class="content-modal">
-                        <a class="close-modal" data-modal="#modal4" href="#">
-                            <svg class="evendodd drawsvg-initialized " width="20px" height="20px" viewBox="0 0 300 300">
-                            <path fill="white" d="M28 232l82 -82 -82 -82c-4,-4 -4,-10 0,-14l27 -27c4,-4 10,-4 14,0l82 82 82 -82c4,-4 10,-4 14,0l27 27c4,4 4,10 0,14l-82 82 82 82c4,4 4,10 0,14l-27 27c-4,4 -10,4 -14,0l-82 -82 -82 82c-4,4 -10,4 -14,0l-27 -27c-4,-4 -4,-10 0,-14z" style="stroke-dasharray: 1205.54, 1205.54; stroke-dashoffset: 0;"></path>
-                            </svg>
-                        </a>
-                        <div class="head-product">
+                    <div class="product" data-toggle="modal" data-target="#Modal4">
+                        <div class="product-image">
                             <img src="img/product/AGGER_GORGEOUS.jpeg" alt="Avatar">
-                            <div class="section-title">Agger Gorgeous</div>
-                            <a href="order.html">
-                                <div class="add-cart">Добавить в комплект</div>
-                            </a>
                         </div>
-                        <div class="description-product modal-inner">
-                            <div class="dflex space-between description-row">
-                                <div>Управление</div>
-                                <div>Рычажное</div>
-                            </div> 
-                            <div class="dflex space-between description-row">
-                                <div>Материал</div>
-                                <div>Латунь</div>
+                        <div class="product-name">Agger Gorgeous</div>
+                    </div>
+                    <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <div class="row flex-column align-items-center mb-3">
+                                                <img class="modal-img" src="img/product/AGGER_GORGEOUS.jpeg" alt="Avatar">
+                                                <div>
+                                                    <div class="section-title">Agger Gorgeous</div>
+                                                    <a href="order.php">
+                                                        <a href="order.php?smesitel=Agger Gorgeous"><div class="add-cart">Добавить в комплект</div></a>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Управление</div>
+                                                        <div>Со смесителя</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Материал</div>
+                                                        <div>Латунь</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Механизм</div>
+                                                        <div>Керамический картридж</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Ш/Г/В, см</div>
+                                                        <div>8 / 8,2 / 12,9</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Подводка</div>
+                                                        <div>1/2</div>                         
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Гарантия</div>
+                                                        <div>5 лет</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Страна производитель</div>
+                                                        <div>Германия</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Цвет</div>
+                                                        <div>Хром (глянцевый)</div>                                                           
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Оснащение</div>
+                                                        <div style="text-align: right;">Душевой гарнитур, внутрення часть</div>                
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>  
+                                    </div>
+                                </div>
                             </div>
-                            <div class="dflex space-between description-row">
-                                <div>Механизм</div>
-                                <div>Керамический картридж</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Ш/Г/В, см</div>
-                                <div>8 / 8,2 / 12,9</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Подводка</div>
-                                <div>1/2</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Гарантия</div>
-                                <div>5 лет</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Страна производитель</div>
-                                <div>Германия</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Цвет</div>
-                                <div>Хром (глянцевый)</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Оснащение</div>
-                                <div style="text-align: right;">Душевой гарнитур, внутрення часть</div>
-                            </div>
-                        </div>            
-                    </div>	
-                </div>
-            </div>
-        
-        
-            <a href="#" class="open-modal product" data-modal="#modal5">
-                <div class="product-image">
-                    <img src="img/product/GROHE_BAUCLASSIC.jpeg" alt="Avatar">
-                </div>
-                <div class="product-name">Grohe BauClassic</div>                 
-            </a> 
-            <div class="overlay">
-                <div class="modal" id="modal5">                    
-                    <div class="content-modal">
-                        <a class="close-modal" data-modal="#modal5" href="#">
-                            <svg class="evendodd drawsvg-initialized " width="20px" height="20px" viewBox="0 0 300 300">
-                            <path fill="white" d="M28 232l82 -82 -82 -82c-4,-4 -4,-10 0,-14l27 -27c4,-4 10,-4 14,0l82 82 82 -82c4,-4 10,-4 14,0l27 27c4,4 4,10 0,14l-82 82 82 82c4,4 4,10 0,14l-27 27c-4,4 -10,4 -14,0l-82 -82 -82 82c-4,4 -10,4 -14,0l-27 -27c-4,-4 -4,-10 0,-14z" style="stroke-dasharray: 1205.54, 1205.54; stroke-dashoffset: 0;"></path>
-                            </svg>
-                        </a>
-                        <div class="head-product">
+                        </div>
+                    </div>
+
+                    <div class="product" data-toggle="modal" data-target="#Modal5">
+                        <div class="product-image">
                             <img src="img/product/GROHE_BAUCLASSIC.jpeg" alt="Avatar">
-                            <div class="section-title">Grohe BauClassic</div>
-                            <a href="order.html">
-                                <div class="add-cart">Добавить в комплект</div>
-                            </a>
                         </div>
-                        <div class="description-product modal-inner">
-                            <div class="dflex space-between description-row">
-                                <div>Управление</div>
-                                <div>Рычажное</div>
-                            </div> 
-                            <div class="dflex space-between description-row">
-                                <div>Материал</div>
-                                <div>Латунь</div>
+                        <div class="product-name">Grohe BauClassic</div>     
+                    </div>
+                    <div class="modal fade" id="Modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <div class="row flex-column align-items-center mb-3">
+                                                <img class="modal-img" src="img/product/GROHE_BAUCLASSIC.jpeg" alt="Avatar">
+                                                <div>
+                                                    <div class="section-title">Grohe BauClassic</div>
+                                                    <a href="order.php">
+                                                        <a href="order.php?smesitel=Grohe BauClassic"><div class="add-cart">Добавить в комплект</div></a>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Управление</div>
+                                                        <div>Со смесителя</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Материал</div>
+                                                        <div>Латунь</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Механизм</div>
+                                                        <div>Керамический картридж</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Ш/Г/В, см</div>
+                                                        <div>10,5 / 9,6 / 14,4</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Размер розетки, см</div>
+                                                        <div>10,5</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Подводка</div>
+                                                        <div>1/2</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Гарантия</div>
+                                                        <div>5 лет</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Страна производитель</div>
+                                                        <div>Германия</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Цвет</div>
+                                                        <div>Хром (глянцевый)</div>                                                           
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Оснащение</div>
+                                                        <div style="text-align: right;">Душевой гарнитур, внутрення часть</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>  
+                                    </div>
+                                </div>
                             </div>
-                            <div class="dflex space-between description-row">
-                                <div>Механизм</div>
-                                <div>Керамический картридж</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Ш/Г/В, см</div>
-                                <div>10,5 / 9,6 / 14,4</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Размер розетки, см</div>
-                                <div>10,5</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Подводка</div>
-                                <div>1/2</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Гарантия</div>
-                                <div>5 лет</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Страна производитель</div>
-                                <div>Германия</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Цвет</div>
-                                <div>Хром (глянцевый)</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Оснащение</div>
-                                <div style="text-align: right;">Душевой гарнитур, внутрення часть</div>
-                            </div>
-                        </div>            
-                    </div>	
-                </div>
-            </div>
+                        </div>
+                    </div>
 
-            <a href="#" class="open-modal product" data-modal="#modal6">
-                <div class="product-image">
-                    <img src="img/product/BRAVAT_ELER.jpeg" alt="Avatar">
-                </div>
-                <div class="product-name">Bravat Eler</div>                 
-            </a> 
-            <div class="overlay">
-                <div class="modal" id="modal6">
-                    <div class="content-modal">
-                        <a class="close-modal" data-modal="#modal6" href="#">
-                            <svg class="evendodd drawsvg-initialized " width="20px" height="20px" viewBox="0 0 300 300">
-                            <path fill="white" d="M28 232l82 -82 -82 -82c-4,-4 -4,-10 0,-14l27 -27c4,-4 10,-4 14,0l82 82 82 -82c4,-4 10,-4 14,0l27 27c4,4 4,10 0,14l-82 82 82 82c4,4 4,10 0,14l-27 27c-4,4 -10,4 -14,0l-82 -82 -82 82c-4,4 -10,4 -14,0l-27 -27c-4,-4 -4,-10 0,-14z" style="stroke-dasharray: 1205.54, 1205.54; stroke-dashoffset: 0;"></path>
-                            </svg>
-                        </a>
-                        <div class="head-product">
+                    <div class="product" data-toggle="modal" data-target="#Modal6">
+                        <div class="product-image">
                             <img src="img/product/BRAVAT_ELER.jpeg" alt="Avatar">
-                            <div class="section-title">Bravat Eler</div>
-                            <a href="order.html">
-                                <div class="add-cart">Добавить в комплект</div>
-                            </a>
                         </div>
-                        <div class="description-product modal-inner">
-                            <div class="dflex space-between description-row">
-                                <div>Управление</div>
-                                <div>Рычажное</div>
-                            </div> 
-                            <div class="dflex space-between description-row">
-                                <div>Материал</div>
-                                <div>Латунь, нерж.сталь</div>
+                        <div class="product-name">Bravat Eler</div>
+                    </div>
+                    <div class="modal fade" id="Modal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <div class="row flex-column align-items-center mb-3">
+                                                <img class="modal-img" src="img/product/BRAVAT_ELER.jpeg" alt="Avatar">
+                                                <div>
+                                                    <div class="section-title">Bravat Eler</div>
+                                                    <a href="order.php">
+                                                        <a href="order.php?smesitel=Bravat Eler"><div class="add-cart">Добавить в комплект</div></a>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Управление</div>
+                                                        <div>Со смесителя</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Материал</div>
+                                                        <div>Латунь</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Механизм</div>
+                                                        <div>Керамический картридж</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Ш/Г/В, см</div>
+                                                        <div>12 / 18 / 17</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Размер розетки, см</div>
+                                                        <div>12</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Подводка</div>
+                                                        <div>1/2</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Гарантия</div>
+                                                        <div>5 лет</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Страна производитель</div>
+                                                        <div>Германия</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Цвет</div>
+                                                        <div>Хром (глянцевый)</div>                                                           
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Оснащение</div>
+                                                        <div style="text-align: right;">Внутрення часть, защита от обратного потока</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>  
+                                    </div>
+                                </div>
                             </div>
-                            <div class="dflex space-between description-row">
-                                <div>Механизм</div>
-                                <div>Керамический картридж</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Ш/Г/В, см</div>
-                                <div>12 / 18 / 17</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Размер розетки, см</div>
-                                <div>12</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Подводка</div>
-                                <div>1/2</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Гарантия</div>
-                                <div>5 лет</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Страна производитель</div>
-                                <div>Германия</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Цвет</div>
-                                <div>Хром (глянцевый)</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Оснащение</div>
-                                <div style="text-align: right;">Внутрення часть, защита от обратного потока</div>
-                            </div>   
-                        </div>            
-                    </div>	
-                </div>
-            </div>
+                        </div>
+                    </div>
 
-            <a href="#" class="open-modal product" data-modal="#modal7">
-                <div class="product-image">
-                    <img src="img/product/WASSERKRAFT_DONAU.jpeg" alt="Avatar">
-                </div>
-                <div class="product-name">Wasserkraft Donau</div>                 
-            </a> 
-            <div class="overlay">
-                <div class="modal" id="modal7">
-                    <div class="content-modal">
-                        <a class="close-modal" data-modal="#modal7" href="#">
-                            <svg class="evendodd drawsvg-initialized " width="20px" height="20px" viewBox="0 0 300 300">
-                            <path fill="white" d="M28 232l82 -82 -82 -82c-4,-4 -4,-10 0,-14l27 -27c4,-4 10,-4 14,0l82 82 82 -82c4,-4 10,-4 14,0l27 27c4,4 4,10 0,14l-82 82 82 82c4,4 4,10 0,14l-27 27c-4,4 -10,4 -14,0l-82 -82 -82 82c-4,4 -10,4 -14,0l-27 -27c-4,-4 -4,-10 0,-14z" style="stroke-dasharray: 1205.54, 1205.54; stroke-dashoffset: 0;"></path>
-                            </svg>
-                        </a>
-                        <div class="head-product">
+                    <div class="product" data-toggle="modal" data-target="#Modal7">
+                        <div class="product-image">
                             <img src="img/product/WASSERKRAFT_DONAU.jpeg" alt="Avatar">
-                            <div class="section-title">Wasserkraft Donau</div>
-                            <a href="order.html">
-                                <div class="add-cart">Добавить в комплект</div>
-                            </a>
                         </div>
-                        <div class="description-product modal-inner">
-                            <div class="dflex space-between description-row">
-                                <div>Управление</div>
-                                <div>Рычажное</div>
-                            </div> 
-                            <div class="dflex space-between description-row">
-                                <div>Материал</div>
-                                <div>Латунь</div>
+                        <div class="product-name">Wasserkraft Donau</div>      
+                    </div>
+                    <div class="modal fade" id="Modal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <div class="row flex-column align-items-center mb-3">
+                                                <img class="modal-img" src="img/product/WASSERKRAFT_DONAU.jpeg" alt="Avatar">
+                                                <div>
+                                                    <div class="section-title">Wasserkraft Donau</div>
+                                                    <a href="order.php">
+                                                        <a href="order.php?smesitel=Wasserkraft Donau"><div class="add-cart">Добавить в комплект</div></a>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Управление</div>
+                                                        <div>Со смесителя</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Материал</div>
+                                                        <div>Латунь</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Механизм</div>
+                                                        <div>Керамический картридж</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Ш/Г/В, см</div>
+                                                        <div>10 / 5,9 / 16</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Размер розетки, см</div>
+                                                        <div>10</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Подводка</div>
+                                                        <div>1/2</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Гарантия</div>
+                                                        <div>5 лет</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Страна производитель</div>
+                                                        <div>Германия</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Цвет</div>
+                                                        <div>Хром (глянцевый)</div>                                                           
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Оснащение</div>
+                                                        <div style="text-align: right;">Внутрення часть</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>  
+                                    </div>
+                                </div>
                             </div>
-                            <div class="dflex space-between description-row">
-                                <div>Механизм</div>
-                                <div>Керамический картридж</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Ш/Г/В, см</div>
-                                <div>10 / 5,9 / 16</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Размер розетки, см</div>
-                                <div>10</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Подводка</div>
-                                <div>1/2</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Гарантия</div>
-                                <div>5 лет</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Страна производитель</div>
-                                <div>Германия</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Цвет</div>
-                                <div>Хром (глянцевый)</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Оснащение</div>
-                                <div style="text-align: right;">Внутрення часть</div>
-                            </div> 
-                        </div>            
-                    </div>	
-                </div>
-            </div>
+                        </div>
+                    </div>
 
-            <a href="#" class="open-modal product" data-modal="#modal8">
-                <div class="product-image">
-                    <img src="img/product/ORAS_POLARA.jpeg" alt="Avatar">
-                </div>
-                <div class="product-name">Oras Polara</div>                 
-            </a> 
-            <div class="overlay">
-                <div class="modal" id="modal8">                    
-                    <div class="content-modal">
-                        <a class="close-modal" data-modal="#modal8" href="#">
-                            <svg class="evendodd drawsvg-initialized " width="20px" height="20px" viewBox="0 0 300 300">
-                            <path fill="white" d="M28 232l82 -82 -82 -82c-4,-4 -4,-10 0,-14l27 -27c4,-4 10,-4 14,0l82 82 82 -82c4,-4 10,-4 14,0l27 27c4,4 4,10 0,14l-82 82 82 82c4,4 4,10 0,14l-27 27c-4,4 -10,4 -14,0l-82 -82 -82 82c-4,4 -10,4 -14,0l-27 -27c-4,-4 -4,-10 0,-14z" style="stroke-dasharray: 1205.54, 1205.54; stroke-dashoffset: 0;"></path>
-                            </svg>
-                        </a>
-                        <div class="head-product">
+                    <div class="product" data-toggle="modal" data-target="#Modal8">
+                        <div class="product-image">
                             <img src="img/product/ORAS_POLARA.jpeg" alt="Avatar">
-                            <div class="section-title">Oras Polara</div>
-                            <a href="order.html">
-                                <div class="add-cart">Добавить в комплект</div>
-                            </a>
                         </div>
-                        <div class="description-product modal-inner">
-                            <div class="dflex space-between description-row">
-                                <div>Управление</div>
-                                <div>Рычажное</div>
-                            </div> 
-                            <div class="dflex space-between description-row">
-                                <div>Материал</div>
-                                <div>Латунь</div>
+                        <div class="product-name">Oras Polara</div>         
+                    </div>
+                    <div class="modal fade" id="Modal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <div class="row flex-column align-items-center mb-3">
+                                                <img class="modal-img" src="img/product/ORAS_POLARA.jpeg" alt="Avatar">
+                                                <div>
+                                                    <div class="section-title">Oras Polara</div>
+                                                    <a href="order.php">
+                                                        <a href="order.php?smesitel=Oras Polara"><div class="add-cart">Добавить в комплект</div></a>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Управление</div>
+                                                        <div>Со смесителя</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Материал</div>
+                                                        <div>Латунь</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Механизм</div>
+                                                        <div>Керамический картридж</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Ш/Г/В, см</div>
+                                                        <div>9 / 9,3 / 12,6</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Размер розетки, см</div>
+                                                        <div>9</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Подводка</div>
+                                                        <div>1/2</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Гарантия</div>
+                                                        <div>5 лет</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Страна производитель</div>
+                                                        <div>Финляндия</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Цвет</div>
+                                                        <div>Хром (глянцевый)</div>                                                           
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Оснащение</div>
+                                                        <div style="text-align: right;">Нет</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>  
+                                    </div>
+                                </div>
                             </div>
-                            <div class="dflex space-between description-row">
-                                <div>Механизм</div>
-                                <div>Керамический картридж</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Ш/Г/В, см</div>
-                                <div>9 / 9,3 / 12,6</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Размер розетки, см</div>
-                                <div>9</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Подводка</div>
-                                <div>1/2</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Гарантия</div>
-                                <div>5 лет</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Страна производитель</div>
-                                <div>Финляндия</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Цвет</div>
-                                <div>Хром (глянцевый)</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Оснащение</div>
-                                <div style="text-align: right;">Нет</div>
-                            </div> 
                         </div>
-                    </div>	
-                </div>
-            </div>
+                    </div>
 
-            <a href="#" class="open-modal product" data-modal="#modal9">
-                <div class="product-image">
-                    <img src="img/product/KLUDI_BOZZ.jpeg" alt="Avatar">
-                </div>
-                <div class="product-name">Kludi Bozz</div>                 
-            </a> 
-            <div class="overlay">
-                <div class="modal" id="modal9">                    
-                    <div class="content-modal">
-                        <a class="close-modal" data-modal="#modal9" href="#">
-                            <svg class="evendodd drawsvg-initialized " width="20px" height="20px" viewBox="0 0 300 300">
-                            <path fill="white" d="M28 232l82 -82 -82 -82c-4,-4 -4,-10 0,-14l27 -27c4,-4 10,-4 14,0l82 82 82 -82c4,-4 10,-4 14,0l27 27c4,4 4,10 0,14l-82 82 82 82c4,4 4,10 0,14l-27 27c-4,4 -10,4 -14,0l-82 -82 -82 82c-4,4 -10,4 -14,0l-27 -27c-4,-4 -4,-10 0,-14z" style="stroke-dasharray: 1205.54, 1205.54; stroke-dashoffset: 0;"></path>
-                            </svg>
-                        </a>
-                        <div class="head-product">
+                    <div class="product" data-toggle="modal" data-target="#Modal9">
+                        <div class="product-image">
                             <img src="img/product/KLUDI_BOZZ.jpeg" alt="Avatar">
-                            <div class="section-title">Kludi Bozz</div>
-                            <a href="order.html">
-                                <div class="add-cart">Добавить в комплект</div>
-                            </a>
                         </div>
-                        <div class="description-product modal-inner">
-                            <div class="dflex space-between description-row">
-                                <div>Управление</div>
-                                <div>Рычажное</div>
-                            </div> 
-                            <div class="dflex space-between description-row">
-                                <div>Материал</div>
-                                <div>Латунь</div>
+                        <div class="product-name">Kludi Bozz</div>  
+                    </div>
+                    <div class="modal fade" id="Modal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <div class="row flex-column align-items-center mb-3">
+                                                <img class="modal-img" src="img/product/KLUDI_BOZZ.jpeg" alt="Avatar">
+                                                <div>
+                                                    <div class="section-title">Kludi Bozz</div>
+                                                    <a href="order.php">
+                                                        <a href="order.php?smesitel=Kludi Bozz"><div class="add-cart">Добавить в комплект</div></a>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Управление</div>
+                                                        <div>Со смесителя</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Материал</div>
+                                                        <div>Латунь</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Механизм</div>
+                                                        <div>Керамический картридж</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Ш/Г/В, см</div>
+                                                        <div>8 / 7 / 12,5</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Размер розетки, см</div>
+                                                        <div>8</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Подводка</div>
+                                                        <div>1/2</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Гарантия</div>
+                                                        <div>5 лет</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Страна производитель</div>
+                                                        <div>Германия</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Цвет</div>
+                                                        <div>Хром (глянцевый)</div>                                                           
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Оснащение</div>
+                                                        <div style="text-align: right;">Нет</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>  
+                                    </div>
+                                </div>
                             </div>
-                            <div class="dflex space-between description-row">
-                                <div>Механизм</div>
-                                <div>Керамический картридж</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Ш/Г/В, см</div>
-                                <div>8 / 7 / 12,5</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Размер розетки, см</div>
-                                <div>8</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Подводка</div>
-                                <div>1/2</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Гарантия</div>
-                                <div>5 лет</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Страна производитель</div>
-                                <div>Германия</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Цвет</div>
-                                <div>Хром (глянцевый)</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Оснащение</div>
-                                <div style="text-align: right;">Нет</div>
-                            </div>
-                        </div>            
-                    </div>	
-                </div>
-            </div>
+                        </div>
+                    </div>
 
-            <a href="#" class="open-modal product" data-modal="#modal10">
-                <div class="product-image">
-                    <img src="img/product/BOHEME_TRADIZIONALE.jpeg" alt="Avatar">
-                </div>
-                <div class="product-name">Boheme Tradizionale</div>                 
-            </a> 
-            <div class="overlay">
-                <div class="modal" id="modal10">                    
-                    <div class="content-modal">
-                        <a class="close-modal" data-modal="#modal10" href="#">
-                            <svg class="evendodd drawsvg-initialized " width="20px" height="20px" viewBox="0 0 300 300">
-                            <path fill="white" d="M28 232l82 -82 -82 -82c-4,-4 -4,-10 0,-14l27 -27c4,-4 10,-4 14,0l82 82 82 -82c4,-4 10,-4 14,0l27 27c4,4 4,10 0,14l-82 82 82 82c4,4 4,10 0,14l-27 27c-4,4 -10,4 -14,0l-82 -82 -82 82c-4,4 -10,4 -14,0l-27 -27c-4,-4 -4,-10 0,-14z" style="stroke-dasharray: 1205.54, 1205.54; stroke-dashoffset: 0;"></path>
-                            </svg>
-                        </a>
-                        <div class="head-product">
+                    <div class="product" data-toggle="modal" data-target="#Modal10">
+                        <div class="product-image">
                             <img src="img/product/BOHEME_TRADIZIONALE.jpeg" alt="Avatar">
-                            <div class="section-title">Boheme Tradizionale</div>
-                            <a href="order.html">
-                                <div class="add-cart">Добавить в комплект</div>
-                            </a>
                         </div>
-                        <div class="description-productn modal-inner">
-                            <div class="dflex space-between description-row">
-                                <div>Управление</div>
-                                <div>Рычажное</div>
-                            </div> 
-                            <div class="dflex space-between description-row">
-                                <div>Материал</div>
-                                <div>Латунь, керамика</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Механизм</div>
-                                <div>Керамический картридж</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Ш/Г/В, см</div>
-                                <div>17,1 / 12 / 19,05</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Подводка</div>
-                                <div>1/2</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Гарантия</div>
-                                <div>3 года</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Страна производитель</div>
-                                <div>Италия</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Цвет</div>
-                                <div>Хром (глянцевый)</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Оснащение</div>
-                                <div style="text-align: right;">Внутренняя часть</div>
-                            </div> 
-                        </div>            
-                    </div>	
-                </div>
-            </div>
-        </div>
-    </div>   
-    <div id="bath" class="tabcontent">
-        <div class="adv-list-items">
-            <a href="#" class="open-modal product" data-modal="#modal11">
-                <div class="product-image">
-                    <img src="img/product/KLUDI_AMEO.jpeg" alt="Avatar">
-                </div>
-                <div class="product-name">Kludi Ameo</div>                 
-            </a> 
-            <div class="overlay">
-                <div class="modal" id="modal11">                    
-                    <div class="content-modal">
-                        <a class="close-modal" data-modal="#modal11" href="#">
-                            <svg class="evendodd drawsvg-initialized " width="20px" height="20px" viewBox="0 0 300 300">
-                            <path fill="white" d="M28 232l82 -82 -82 -82c-4,-4 -4,-10 0,-14l27 -27c4,-4 10,-4 14,0l82 82 82 -82c4,-4 10,-4 14,0l27 27c4,4 4,10 0,14l-82 82 82 82c4,4 4,10 0,14l-27 27c-4,4 -10,4 -14,0l-82 -82 -82 82c-4,4 -10,4 -14,0l-27 -27c-4,-4 -4,-10 0,-14z" style="stroke-dasharray: 1205.54, 1205.54; stroke-dashoffset: 0;"></path>
-                            </svg>
-                        </a>
-                        <div class="head-product">
-                            <img src="img/product/KLUDI_AMEO.jpeg" alt="Avatar">
-                            <div class="section-title">Kludi Ameo</div>
-                            <a href="order.html">
-                                <div class="add-cart">Добавить в комплект</div>
-                            </a>
-                        </div>
-                        <div class="description-product modal-inner">
-                            <div class="dflex space-between description-row">
-                                <div>Управление</div>
-                                <div>Рычажное</div>
-                            </div> 
-                            <div class="dflex space-between description-row">
-                                <div>Материал</div>
-                                <div>Латунь, керамика</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Механизм</div>
-                                <div>Керамический картридж</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Ш/Г/В, см</div>
-                                <div>6,5 / 13,3 / 6</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Длина шланга, см</div>
-                                <div>150</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Подводка</div>
-                                <div>1/2</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Гарантия</div>
-                                <div>5 лет</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Страна производитель</div>
-                                <div>Германия</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Цвет</div>
-                                <div>Хром (глянцевый)</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Оснащение</div>
-                                <div style="text-align: right;">Крепления, душевой шланг, душевая лейка, дивертор</div>
+                        <div class="product-name">Boheme Tradizionale</div>
+                    </div>
+                    <div class="modal fade" id="Modal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <div class="row flex-column align-items-center mb-3">
+                                                <img class="modal-img" src="img/product/BOHEME_TRADIZIONALE.jpeg" alt="Avatar">
+                                                <div>
+                                                    <div class="section-title">Boheme Tradizionale</div>
+                                                    <a href="order.php">
+                                                        <a href="order.php?smesitel=Boheme Tradizionale"><div class="add-cart">Добавить в комплект</div></a>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Управление</div>
+                                                        <div>Со смесителя</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Материал</div>
+                                                        <div>Латунь, керамика</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Механизм</div>
+                                                        <div>Керамический картридж</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Ш/Г/В, см</div>
+                                                        <div>17,1 / 12 / 19,05</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Подводка</div>
+                                                        <div>1/2</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Гарантия</div>
+                                                        <div>3 года</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Страна производитель</div>
+                                                        <div>Италия</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Цвет</div>
+                                                        <div>Хром (глянцевый)</div>                                                           
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Оснащение</div>
+                                                        <div style="text-align: right;">Внутренняя часть</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>  
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>   
+            <div id="bath" class="tabcontent">
+                <div class="row justify-content-center">
+                    <div class="product" data-toggle="modal" data-target="#Modal11">
+                        <div class="product-image">
+                            <img src="img/product/KLUDI_AMEO.jpeg" alt="Avatar">
+                        </div>
+                        <div class="product-name">Kludi Ameo</div>
+                    </div>
+                    <div class="modal fade" id="Modal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <div class="row flex-column align-items-center mb-3">
+                                                <img class="modal-img" src="img/product/KLUDI_AMEO.jpeg" alt="Avatar">
+                                                <div>
+                                                    <div class="section-title">Kludi Ameo</div>
+                                                    <a href="order.php">
+                                                        <a href="order.php?smesitel=Kludi Ameo"><div class="add-cart">Добавить в комплект</div></a>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Управление</div>
+                                                        <div>Со смесителя</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Материал</div>
+                                                        <div>Латунь, керамика</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Механизм</div>
+                                                        <div>Керамический картридж</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Ш/Г/В, см</div>
+                                                        <div>6,5 / 13,3 / 6</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Длина шланга, см</div>
+                                                        <div>150</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Подводка</div>
+                                                        <div>1/2</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Гарантия</div>
+                                                        <div>5 лет</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Страна производитель</div>
+                                                        <div>Германия</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Цвет</div>
+                                                        <div>Хром (глянцевый)</div>                                                           
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Оснащение</div>
+                                                        <div style="text-align: right;">Крепления, душевой шланг, душевая лейка, дивертор</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-
-            <a href="#" class="open-modal product" data-modal="#modal12">
-                <div class="product-image">
-                    <img src="img/product/RAV_SLEZAK_DUNAJ.jpeg" alt="Avatar">
-                </div>
-                <div class="product-name">Rav Slezak Dunaj</div>                 
-            </a> 
-            <div class="overlay">                
-                <div class="modal" id="modal12">                    
-                    <div class="content-modal">
-                        <a class="close-modal" data-modal="#modal12" href="#">
-                            <svg class="evendodd drawsvg-initialized " width="20px" height="20px" viewBox="0 0 300 300">
-                            <path fill="white" d="M28 232l82 -82 -82 -82c-4,-4 -4,-10 0,-14l27 -27c4,-4 10,-4 14,0l82 82 82 -82c4,-4 10,-4 14,0l27 27c4,4 4,10 0,14l-82 82 82 82c4,4 4,10 0,14l-27 27c-4,4 -10,4 -14,0l-82 -82 -82 82c-4,4 -10,4 -14,0l-27 -27c-4,-4 -4,-10 0,-14z" style="stroke-dasharray: 1205.54, 1205.54; stroke-dashoffset: 0;"></path>
-                            </svg>
-                        </a>
-                        <div class="head-product">
+                    <div class="product" data-toggle="modal" data-target="#Modal12">
+                        <div class="product-image">
                             <img src="img/product/RAV_SLEZAK_DUNAJ.jpeg" alt="Avatar">
-                            <div class="section-title">Rav Slezak Dunaj</div>
-                            <a href="order.html">
-                                <div class="add-cart">Добавить в комплект</div>
-                            </a>
                         </div>
-                        <div class="description-product modal-inner">
-                            <div class="dflex space-between description-row">
-                                <div>Управление</div>
-                                <div>Рычажное</div>
-                            </div> 
-                            <div class="dflex space-between description-row">
-                                <div>Материал</div>
-                                <div>Латунь</div>
+                        <div class="product-name">Rav Slezak Dunaj</div>   
+                    </div>
+                    <div class="modal fade" id="Modal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <div class="row flex-column align-items-center mb-3">
+                                                <img class="modal-img" src="img/product/RAV_SLEZAK_DUNAJ.jpeg" alt="Avatar">
+                                                <div>
+                                                    <div class="section-title">Rav Slezak Dunaj</div>
+                                                    <a href="order.php">
+                                                        <a href="order.php?smesitel=Rav Slezak Dunaj"><div class="add-cart">Добавить в комплект</div></a>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Управление</div>
+                                                        <div>Со смесителя</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Материал</div>
+                                                        <div>Латунь, керамика</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Механизм</div>
+                                                        <div>Керамический картридж</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Ш/Г/В, см</div>
+                                                        <div>4,9 / 10,1 / 10,4</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Длина шланга, см</div>
+                                                        <div>200</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Подводка</div>
+                                                        <div>1/2</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Гарантия</div>
+                                                        <div>6 лет</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Страна производитель</div>
+                                                        <div>Чехия</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Цвет</div>
+                                                        <div>Хром (глянцевый)</div>                                                           
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Оснащение</div>
+                                                        <div style="text-align: right;">Крепления, душевой шланг, душевая лейка, гибкая подводка, дивертор</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>  
+                                    </div>
+                                </div>
                             </div>
-                            <div class="dflex space-between description-row">
-                                <div>Механизм</div>
-                                <div>Керамический картридж</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Ш/Г/В, см</div>
-                                <div>4,9 / 10,1 / 10,4</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Длина шланга, см</div>
-                                <div>200</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Подводка</div>
-                                <div>1/2</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Гарантия</div>
-                                <div>6 лет</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Страна производитель</div>
-                                <div>Чехия</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Цвет</div>
-                                <div>Хром (глянцевый)</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Оснащение</div>
-                                <div style="text-align: right;">Крепления, душевой шланг, душевая лейка, гибкая подводка, дивертор</div>
-                            </div>
-                        </div>            
-                    </div>	
-                </div>
-            </div>
+                        </div>
+                    </div>
 
-            <a href="#" class="open-modal product" data-modal="#modal13">
-                <div class="product-image">
-                    <img src="img/product/AQUANET.jpeg" alt="Avatar">
-                </div>
-                <div class="product-name">Aquanet</div>                 
-            </a> 
-            <div class="overlay">                
-                <div class="modal" id="modal13">                    
-                    <div class="content-modal">
-                        <a class="close-modal" data-modal="#modal13" href="#">
-                            <svg class="evendodd drawsvg-initialized " width="20px" height="20px" viewBox="0 0 300 300">
-                            <path fill="white" d="M28 232l82 -82 -82 -82c-4,-4 -4,-10 0,-14l27 -27c4,-4 10,-4 14,0l82 82 82 -82c4,-4 10,-4 14,0l27 27c4,4 4,10 0,14l-82 82 82 82c4,4 4,10 0,14l-27 27c-4,4 -10,4 -14,0l-82 -82 -82 82c-4,4 -10,4 -14,0l-27 -27c-4,-4 -4,-10 0,-14z" style="stroke-dasharray: 1205.54, 1205.54; stroke-dashoffset: 0;"></path>
-                            </svg>
-                        </a>
-                        <div class="head-product">
+                    <div class="product" data-toggle="modal" data-target="#Modal13">
+                        <div class="product-image">
                             <img src="img/product/AQUANET.jpeg" alt="Avatar">
-                            <div class="section-title">Aquanet</div>
-                            <a href="order.html">
-                                <div class="add-cart">Добавить в комплект</div>
-                            </a>
                         </div>
-                        <div class="description-product modal-inner">
-                            <div class="dflex space-between description-row">
-                                <div>Управление</div>
-                                <div>Рычажное</div>
-                            </div> 
-                            <div class="dflex space-between description-row">
-                                <div>Материал</div>
-                                <div>Латунь</div>
+                        <div class="product-name">Aquanet</div>   
+                    </div>
+                    <div class="modal fade" id="Modal13" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row justify-content-center ">
+                                        <div class="col-md-4">
+                                            <div class="row flex-column align-items-center mb-3">
+                                                <img class="modal-img" src="img/product/AQUANET.jpeg" alt="Avatar">
+                                                <div>
+                                                    <div class="section-title">Aquanet</div>
+                                                    <a href="order.php">
+                                                        <a href="order.php?smesitel=Aquanet"><div class="add-cart">Добавить в комплект</div></a>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Управление</div>
+                                                        <div>Со смесителя</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Материал</div>
+                                                        <div>Латунь, керамика</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Механизм</div>
+                                                        <div>Керамический картридж</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Ш/Г/В, см</div>
+                                                        <div>4,9 / 10,1 / 10,4</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Длина шланга, см</div>
+                                                        <div>200</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Подводка</div>
+                                                        <div>1/2</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Гарантия</div>
+                                                        <div>6 лет</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Страна производитель</div>
+                                                        <div>Чехия</div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Цвет</div>
+                                                        <div>Хром (глянцевый)</div>                                                           
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="row justify-content-between">
+                                                        <div>Оснащение</div>
+                                                        <div style="text-align: right;">Крепления, душевой шланг, душевая лейка</div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>  
+                                    </div>
+                                </div>
                             </div>
-                            <div class="dflex space-between description-row">
-                                <div>Механизм</div>
-                                <div>Керамический картридж</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Ш/Г/В, см</div>
-                                <div>4,9 / 10,1 / 10,4</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Длина шланга, см</div>
-                                <div>200</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Подводка</div>
-                                <div>1/2</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Гарантия</div>
-                                <div>6 лет</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Страна производитель</div>
-                                <div>Чехия</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Цвет</div>
-                                <div>Хром (глянцевый)</div>
-                            </div>
-                            <div class="dflex space-between description-row">
-                                <div>Оснащение</div>
-                                <div style="text-align: right;">Крепления, душевой шланг, душевая лейка</div>
-                            </div>
-                        </div>            
-                    </div>	
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -951,5 +1346,8 @@
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="js/script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
