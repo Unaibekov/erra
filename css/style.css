@@ -283,12 +283,25 @@ section {
 }
 
 .bd-example {
-  width: 960px;
+  height: 400px;
+  overflow: hidden;
 }
 
-.carousel-item.active {
-  display: flex;
-  align-items: center;
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-text {
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.active {
+  height: 100%;
+}
+
+.carousel-item {
   height: 100%;
   overflow: hidden;
 }
@@ -797,6 +810,30 @@ footer {
     width: 100%;
   }
 
+  .bd-example {
+    height: unset;
+  }
+  
+  .d-none {
+    display: flex !important;
+  }
+
+    .carousel-inner {
+    height: unset;
+  }
+  
+  .active {
+    height: unset;
+  }
+
+  .carousel-item {
+    height: unset;
+  }
+
+  .carousel-text {
+    font-size: 0.8em;
+  }
+
 @media (max-width: 768px) 
 {
 
@@ -806,9 +843,7 @@ footer {
 
   .tab {
     flex-direction: column;
-}
- 
-{
-  
+  }
+
 @media (max-width: 426px) 
 {
