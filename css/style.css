@@ -39,30 +39,6 @@ a {
   fill: #0047bb;
 }
 
-.w100 {
-  width: 100%;
-}
-
-/* FLEX */
-
-.dflex {
-  display: flex;
-}
-.space-between {
-  justify-content: space-between;
-}
-.a-center {
-  align-items: center;
-}
-.j-center {
-  justify-content: center;
-}
-.flex-column {
-  flex-direction: column;
-}
-
-/* HEADER */
-
 .header {
   padding: 20px 0;
   position: fixed;
@@ -307,14 +283,26 @@ section {
 }
 
 .bd-example {
-  width: 960px;
+  height: 400px;
+  overflow: hidden;
 }
 
+.carousel-inner {
+  height: 100%;
+}
 
-.carousel-item-next, .carousel-item-prev, .carousel-item.active {
-  display: flex;
-  align-items: center;
-  height: 400px;
+.carousel-text {
+  font-size: 1.5em;
+  line-height: 1.1;
+  font-weight: 700;
+}
+
+.active {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
   overflow: hidden;
 }
 
@@ -326,11 +314,6 @@ section {
   background-attachment: fixed;
   display: flex;
   align-items: center;
-}
-
-.background-block-text {
-  margin-left: 5%; 
-  width: 60%;
 }
 
 .background-title {
@@ -357,43 +340,16 @@ section {
   background-attachment: fixed;
 }
 
-/* DESCRIPTION */
-
-.description {
-  width: 960px;
-  flex-direction: row;
-  margin-top: 20px;
-}
-
-.description-product {
-  width: 500px;
-}
-
-.description-column {
-  margin: 0px 20px;
-}
-
-.details-description-column {
-  margin: 20px;
-}
-
-.description-row {
-  padding: 10px 0px;
-  font-weight: 100;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
-
 /* VIDEO */
 
-.video {
-  width: 100%;
-  margin-top: 40px;
+video {
+  max-width: 100%;
 }
 .local-video-container {
   position: relative;
 }
-.background-image-holder.fadeIn {
-  opacity: 1;
+.local-video-container video {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 .local-video-container .background-image-holder {
   transition: all 0.3s ease;
@@ -402,20 +358,19 @@ section {
   top: 0;
   box-shadow: 0 1px 15px 0 rgba(0, 0, 0, 0.26);
 }
-.background-image-holder {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  background: #222;
-  background-size: cover !important;
-  background-position: 50% 50% !important;
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  opacity: 0;
+.background-image-holder.fadeout {
+  opacity: 0 !important;
+  z-index: -1;
+}
+.background-image-holder.parallax {
+  height: 150%;
+  top: -30%;
+  transition: all 0s ease !important;
+}
+@media all and (max-width: 767px) {
+  video {
+    max-width: 100% !important;
+  }
 }
 .play-button {
   width: 80px;
@@ -530,6 +485,78 @@ section {
     border-style: solid;
     border-width: 15px 0 15px 25.0px;
     border-color: transparent transparent transparent #222222;
+  }
+}
+.modal-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.6);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  opacity: 0;
+  z-index: -1;
+}
+.modal-video video {
+  margin: 0 auto;
+  width: 675px;
+  display: block;
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+.modal-video.reveal-modal {
+  opacity: 1;
+  z-index: 999;
+}
+.modal-video-container .play-button.video-playing {
+  z-index: 1000;
+}
+@media all and (max-width: 767px) {
+  .modal-video video {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
+.fs-video-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.fs-video-wrapper video {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.embed-video-container {
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+  display: inline-block;
+}
+.embed-video-container iframe {
+  border: none;
+  width: 100%;
+  height: 312px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+@media all and (max-width: 990px) {
+  .embed-video-container {
+    margin-bottom: 20px;
+  }
+}
+@media all and (max-width: 767px) {
+  .embed-video-container iframe {
+    height: 200px;
   }
 }
 
@@ -701,7 +728,6 @@ footer i:hover {
   background: #1f74ff;
 }
 
-
 input {
   padding: 15px;
   border: 1px solid #b5bac3;
@@ -742,22 +768,12 @@ input {
 .partnership {
   background: #0047bb;
   color: white;
-  padding: 2% 5%;
 }
 
-.partnership-block {
-  flex-direction: row;
-}
-
-.partnership-block-title {
+.partnership-title {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
-}
-
-.partnership-form {
-  flex-direction: row;
-  width: 700px;
 }
 
 /* FOOTER */
@@ -770,7 +786,6 @@ footer {
   justify-content: center;
   flex-direction: column;
 }
-
 
 @media (max-width: 1024px)
 { 
@@ -808,13 +823,8 @@ footer {
     background-attachment: scroll;
   }
 
-
   #details {
     background-attachment: scroll;
-  }
-
-  .main-title-details {   
-    padding: 20px;
   }
 
   .adv {
@@ -828,33 +838,6 @@ footer {
     margin: 15px;
   }
 
-  /* .product {
-    width: 100%;
-  } */
-
-  .description {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .description-product {
-    width: 100%;
-  }
-
-  .description-column {
-    margin: 0px 0px;
-  }
-
-  .gallery-content {
-    width: 100%;
-  }
-
-  div#captioned-gallery { 
-    width: 100%;
-  }
-
-  figure.slider img { height: 195px; }
-  
   select {
     min-width: 95%;
   }
@@ -869,18 +852,6 @@ footer {
 
   .details-block-item {
     font-size: inherit;
-  }
-
-  .adv-list-items {
-    width: auto;
-  }
-
-  div#captioned-gallery { 
-    width: 100%;
-  }
-
-  figure.slider img { 
-    height: 195px; 
   }
 
   .partnership-block {
@@ -905,6 +876,34 @@ footer {
     height: 20px; 
   }
 
+  input {
+    width: 100%;
+  }
+
+  .bd-example {
+    height: unset;
+  }
+  
+  .d-none {
+    display: flex !important;
+  }
+
+    .carousel-inner {
+    height: unset;
+  }
+  
+  .active {
+    height: unset;
+  }
+
+  .carousel-item {
+    height: unset;
+  }
+
+  .carousel-text {
+    font-size: 0.8em;
+  }
+
 @media (max-width: 768px) 
 {
 
@@ -914,9 +913,7 @@ footer {
 
   .tab {
     flex-direction: column;
-}
- 
-{
-  
+  }
+
 @media (max-width: 426px) 
 {
