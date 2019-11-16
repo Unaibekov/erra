@@ -39,6 +39,20 @@ a {
   fill: #0047bb;
 }
 
+.btn {
+  color: #0047bb!important;
+  text-decoration: none;
+  font-weight: 700!important;
+  text-transform: uppercase;
+}
+
+.btn-link {
+  color: #0047bb!important;
+  font-weight: 700!important;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .header {
   padding: 20px 0;
   position: fixed;
