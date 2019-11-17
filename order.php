@@ -32,7 +32,12 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
             <a href="index.html">
                 <img class="logo ml-3" src="img/color-erra.svg" alt="">
             </a>
-            <div class="phone phone-white mr-3">8 800 201 28 26</div>
+            <div class="d-flex align-items-center">
+                <div class="phone phone-white mr-3">8 800 201 28 26</div>
+                <a href="">
+                    <div class="ml-3 mr-3 order">Оплатить</div>
+                </a>
+            </div>            
         </div>
     </div>
 </div>
@@ -71,17 +76,15 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
     </div>
 </main>
-<section class="d-flex justify-content-center">
-    <div class="container d-flex">
-        <div class="row">
-            <div class="col-md-8">
+<section class="">
+    <div class="container">
+        <div class="row mb-3 flex-column align-items-center">
+            <div class="col-md-8 d-flex flex-column align-items-center">
                 <div class="section-title">С этим товаром заказывают</div>
                 <div style="background: #0047bb; height: 3px; width: 100px; margin-bottom: 10px;"></div>
+                <div class="section-sub-title">Подставка на ванну - это классический аксессуар, который позволит вам совместить приятное времяпровождение и пользу. Вы сможете разложить на специальной подставке свою любимую книгу, планшет или телефон, а также бокал с вином.</div>
             </div>
-            
-            <div class="col-md-8 section-sub-title">Подставка на ванну - это классический аксессуар, который позволит вам совместить приятное времяпровождение и пользу. Вы сможете разложить на специальной подставке свою любимую книгу, планшет или телефон, а также бокал с вином.</div>
-            </div>
-            <div class="col-md-8 d-flex align-items-center justify-content-center">
+            <div class="row">
                 <div class="product" data-toggle="modal" data-target="#Modal1">
                     <div class="product-image">
                         <img src="img/product/ZELLER.jpg" alt="Avatar">
@@ -277,16 +280,16 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
                 </div>
             </div>
-            <div style="background: #0047bb; height: 3px; width: 100px; margin-bottom: 10px;"></div>
-            <div class="col-md-8 section-sub-title">Слив-перелив</div>
-            <div class="row align-items-center justify-content-center">
-                <div class="product" data-toggle="modal" data-target="#Modal1">
+            <div style="background: #0047bb; height: 3px; width: 100px; margin: 30px 0 10px;"></div>
+            <div class="col-md-8 section-sub-title">Слив-перелив - это система, обеспечивающая спуск воды из ванной в канализацию и предохраняющая ванну от переполнения.</div>
+            <div class="row">
+                <div class="product" data-toggle="modal" data-target="#Modal4">
                     <div class="product-image">
-                        <img src="img/product/ZELLER.jpg" alt="Avatar">
+                        <img src="img/product/HANSGROHE.jpg" alt="Avatar">
                     </div>
-                    <div class="product-name">Zeller</div>    
+                    <div class="product-name">Hansgrohe</div>    
                 </div>
-                <div class="modal fade" id="Modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="Modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -298,11 +301,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <div class="row justify-content-between">
                                     <div class="col-md-4">
                                         <div class="row flex-column align-items-center mb-3">
-                                            <img class="modal-img" src="img/product/ZELLER.jpg" alt="Avatar">
+                                            <img class="modal-img" src="img/product/HANSGROHE.jpg" alt="Avatar">
                                             <div>
-                                                <div class="section-title">Zeller</div>
+                                                <div class="section-title">Hansgrohe</div>
                                                 <a href="order.php">
-                                                    <a href="order.php?shelf=Полка Zeller"><div class="add-cart">Добавить в комплект</div></a>
+                                                    <a href="order.php?shelf=Слив-перелив Hansgrohe"><div class="add-cart">Добавить в комплект</div></a>
                                                 </a>
                                             </div>
                                         </div>
@@ -312,25 +315,55 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                                             <li class="list-group-item">
                                                 <div class="row justify-content-between">
                                                     <div>Цена</div>
-                                                    <div class="section-title">4 983Р</div>
+                                                    <div class="section-title">4 810Р</div>
                                                 </div>
                                             </li>
                                             <li class="list-group-item">
                                                 <div class="row justify-content-between">
-                                                    <div>Тип</div>
-                                                    <div>Раздвижная полка</div>
+                                                    <div>Вид слива-перелива</div>
+                                                    <div>полуавтоматический (тросик)</div>
                                                 </div>
                                             </li>
                                             <li class="list-group-item">
                                                 <div class="row justify-content-between">
                                                     <div>Материал</div>
-                                                    <div>Металл, дерево</div>
+                                                    <div>Пластик</div>
                                                 </div>
                                             </li>
                                             <li class="list-group-item">
                                                 <div class="row justify-content-between">
-                                                    <div>Размер, см</div>
-                                                    <div>70-105 х 22 х 4</div>
+                                                    <div>Для слива диаметром, см</div>
+                                                    <div>5,2</div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row justify-content-between">
+                                                    <div>Диаметр подключения, см</div>
+                                                    <div>5</div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row justify-content-between">
+                                                    <div>Высота и длина, см</div>
+                                                    <div>10,3 и 61</div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row justify-content-between">
+                                                    <div>Гидрозатвор</div>
+                                                    <div>Есть</div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row justify-content-between">
+                                                    <div>Регулировка по высоте, см</div>
+                                                    <div>50</div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row justify-content-between">
+                                                    <div>Гарантия</div>
+                                                    <div>5 лет</div>
                                                 </div>
                                             </li>
                                             <li class="list-group-item">
@@ -347,13 +380,13 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
                 </div>
 
-                <div class="product" data-toggle="modal" data-target="#Modal2">
+                <div class="product" data-toggle="modal" data-target="#Modal5">
                     <div class="product-image">
-                        <img src="img/product/UMBRA.jpg" alt="Avatar">
+                        <img src="img/product/TIMO.jpg" alt="Avatar">
                     </div>
-                    <div class="product-name">Umbra</div>    
+                    <div class="product-name">Timo 8004</div>    
                 </div>
-                <div class="modal fade" id="Modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="Modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -365,11 +398,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <div class="row justify-content-between">
                                     <div class="col-md-4">
                                         <div class="row flex-column align-items-center mb-3">
-                                            <img class="modal-img" src="img/product/UMBRA.jpg" alt="Avatar">
+                                            <img class="modal-img" src="img/product/TIMO.jpg" alt="Avatar">
                                             <div>
-                                                <div class="section-title">Umbra</div>
+                                                <div class="section-title">Timo 8004</div>
                                                 <a href="order.php">
-                                                    <a href="order.php?shelf=Полка Umbra"><div class="add-cart">Добавить в комплект</div></a>
+                                                    <a href="order.php?shelf=Слив-перелив Timo 8004"><div class="add-cart">Добавить в комплект</div></a>
                                                 </a>
                                             </div>
                                         </div>
@@ -379,25 +412,49 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                                             <li class="list-group-item">
                                                 <div class="row justify-content-between">
                                                     <div>Цена</div>
-                                                    <div class="section-title">4 390Р</div>
+                                                    <div class="section-title">3 800Р</div>
                                                 </div>
                                             </li>
                                             <li class="list-group-item">
                                                 <div class="row justify-content-between">
-                                                    <div>Тип</div>
-                                                    <div>Раздвижная полка</div>
+                                                    <div>Вид слива-перелива</div>
+                                                    <div>автоматический (клик-клак)</div>
                                                 </div>
                                             </li>
                                             <li class="list-group-item">
                                                 <div class="row justify-content-between">
                                                     <div>Материал</div>
-                                                    <div>Дерево</div>
+                                                    <div>Латунь (цвет хром)</div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row justify-content-between">
+                                                    <div>Для слива диаметром, см</div>
+                                                    <div>5,2</div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row justify-content-between">
+                                                    <div>Диаметр подключения, см</div>
+                                                    <div>4</div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row justify-content-between">
+                                                    <div>Гидрозатвор</div>
+                                                    <div>Есть</div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row justify-content-between">
+                                                    <div>Гарантия</div>
+                                                    <div>5 лет</div>
                                                 </div>
                                             </li>
                                             <li class="list-group-item">
                                                 <div class="row justify-content-between">
                                                     <div>Страна производитель</div>
-                                                    <div>Китай</div>
+                                                    <div>Финляндия</div>
                                                 </div>
                                             </li>
                                         </ul>
@@ -408,13 +465,13 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                     </div>
                 </div>
 
-                <div class="product" data-toggle="modal" data-target="#Modal3">
+                <div class="product" data-toggle="modal" data-target="#Modal6">
                     <div class="product-image">
-                        <img src="img/product/BAMBOO.jpg" alt="Avatar">
+                        <img src="img/product/RADAWAY.jpg" alt="Avatar">
                     </div>
-                    <div class="product-name">Bamboo</div>    
+                    <div class="product-name">Radaway R135</div>    
                 </div>
-                <div class="modal fade" id="Modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal fade" id="Modal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
@@ -426,11 +483,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <div class="row justify-content-between">
                                     <div class="col-md-4">
                                         <div class="row flex-column align-items-center mb-3">
-                                            <img class="modal-img" src="img/product/BAMBOO.jpg" alt="Avatar">
+                                            <img class="modal-img" src="img/product/RADAWAY.jpg" alt="Avatar">
                                             <div>
-                                                <div class="section-title">Bamboo</div>
+                                                <div class="section-title">Radaway R135</div>
                                                 <a href="order.php">
-                                                    <a href="order.php?shelf=Полка Bamboo"><div class="add-cart">Добавить в комплект</div></a>
+                                                    <a href="order.php?shelf=Слив-перелив Radaway"><div class="add-cart">Добавить в комплект</div></a>
                                                 </a>
                                             </div>
                                         </div>
@@ -440,31 +497,61 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                                             <li class="list-group-item">
                                                 <div class="row justify-content-between">
                                                     <div>Цена</div>
-                                                    <div class="section-title">3 699Р</div>
+                                                    <div class="section-title">2 850Р</div>
                                                 </div>
                                             </li>
                                             <li class="list-group-item">
                                                 <div class="row justify-content-between">
-                                                    <div>Тип</div>
-                                                    <div>Раздвижная полка</div>
+                                                    <div>Вид слива-перелива</div>
+                                                    <div>автоматический (клик-клак)</div>
                                                 </div>
                                             </li>
                                             <li class="list-group-item">
                                                 <div class="row justify-content-between">
                                                     <div>Материал</div>
-                                                    <div>Металл, дерево</div>
+                                                    <div>Пластик (цвет хром)</div>
                                                 </div>
                                             </li>
                                             <li class="list-group-item">
                                                 <div class="row justify-content-between">
-                                                    <div>Размер, см</div>
-                                                    <div>69,9-104,5 х 22,2 х 4,4</div>
+                                                    <div>Для слива диаметром, см</div>
+                                                    <div>5</div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row justify-content-between">
+                                                    <div>Диаметр подключения, см</div>
+                                                    <div>5</div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row justify-content-between">
+                                                    <div>Высота и длина, см</div>
+                                                    <div>14,5 и 28</div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row justify-content-between">
+                                                    <div>Гидрозатвор</div>
+                                                    <div>Есть</div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row justify-content-between">
+                                                    <div>Дополнительные функции</div>
+                                                    <div>возможность регулировки по высоте, самоочищение</div>
+                                                </div>
+                                            </li>
+                                            <li class="list-group-item">
+                                                <div class="row justify-content-between">
+                                                    <div>Гарантия</div>
+                                                    <div>3 года</div>
                                                 </div>
                                             </li>
                                             <li class="list-group-item">
                                                 <div class="row justify-content-between">
                                                     <div>Страна производитель</div>
-                                                    <div>Китай</div>
+                                                    <div>Польша</div>
                                                 </div>
                                             </li>
                                         </ul>
@@ -474,10 +561,25 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
 </section>
+<footer>
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <img style="height: 20px;" src="img/color-erra.svg" alt="">
+            <div>
+                <i style="margin-right: 10px;" class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                <i class="fa fa-vk fa-2x" aria-hidden="true"></i>
+            </div>
+        </div>
+    </div>
+    <div style="text-align: center; font-size: 14px; font-weight: 100; margin-top: 15px;">
+        © Copyright 2019 ERRA - Современная сантехника
+    </div>
+</footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="js/script.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
