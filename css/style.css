@@ -36,7 +36,7 @@ a {
 }
 
 .blue {
-  fill: #0047bb;
+  fill: #0047bb!important;
 }
 
 .btn {
@@ -77,6 +77,14 @@ a {
 
 .logo {
   height: 30px; 
+}
+
+.phone-mobile-icon {
+  display: none;
+}
+
+.phone-icon-fill {
+  fill: #ff7a00;
 }
 
 .phone {
@@ -807,6 +815,10 @@ footer {
 
   .main {  
     background-attachment: scroll;
+  }
+
+  .phone-mobile-icon {
+    display: block;
   }
 
   .erra-big-logo {

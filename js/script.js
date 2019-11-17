@@ -89,6 +89,7 @@ $( () => {
 	$(window).scroll( () => {
 		var windowTop = $(window).scrollTop();
 		windowTop > 250 ? $('.nav').addClass('navShadow') : $('.nav').removeClass('navShadow');
+		windowTop > 250 ? $('.phone-icon-white').addClass('blue') : $('.phone-icon-white').removeClass('blue');
 		windowTop > 250 ? $('.phone-white').addClass('phone-black') : $('.phone-white').removeClass('phone-black');
 		windowTop > 250 ? $('.order').addClass('order-color') : $('.order').removeClass('order-color');
   
