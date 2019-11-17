@@ -582,15 +582,6 @@ video {
   }
 }
 
-footer i {
-  color: black;   
-  cursor: pointer; 
-}
-
-footer i:hover {
-  color: white;    
-}
-
 /* DETAILS */
 
 #details {
