@@ -305,7 +305,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                                             <div>
                                                 <div class="section-title">Hansgrohe</div>
                                                 <a href="order.php">
-                                                    <a href="order.php?shelf=Слив-перелив Hansgrohe"><div class="add-cart">Добавить в комплект</div></a>
+                                                    <a href="order.php?sifon=Слив-перелив Hansgrohe"><div class="add-cart">Добавить в комплект</div></a>
                                                 </a>
                                             </div>
                                         </div>
@@ -402,7 +402,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                                             <div>
                                                 <div class="section-title">Timo 8004</div>
                                                 <a href="order.php">
-                                                    <a href="order.php?shelf=Слив-перелив Timo 8004"><div class="add-cart">Добавить в комплект</div></a>
+                                                    <a href="order.php?sifon=Слив-перелив Timo 8004"><div class="add-cart">Добавить в комплект</div></a>
                                                 </a>
                                             </div>
                                         </div>
@@ -487,7 +487,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
                                             <div>
                                                 <div class="section-title">Radaway R135</div>
                                                 <a href="order.php">
-                                                    <a href="order.php?shelf=Слив-перелив Radaway"><div class="add-cart">Добавить в комплект</div></a>
+                                                    <a href="order.php?sifon=Слив-перелив Radaway"><div class="add-cart">Добавить в комплект</div></a>
                                                 </a>
                                             </div>
                                         </div>
